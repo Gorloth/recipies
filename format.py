@@ -131,7 +131,7 @@ def output_html(recipie, directory):
         f.write('<br><b>Tags:</b>')
         for tag in recipie.tags.split(','):
             tag = tag.strip()
-            f.write(f' <a href="./index.html#{tag.lower()}">{tag}</a>')
+            f.write(f' <a href="../index.html#{tag.lower()}">{tag}</a>')
                 
 recipies = []
                 
@@ -150,11 +150,11 @@ for recipie in recipies:
             tags[tag] = [recipie.get_url()]
 
 
-with open( './outputs/index.html', 'w') as f:
+with open( './index.html', 'w') as f:
     for k in sorted(tags.keys()):
         f.write(f'<h3 id="{k.lower()}">{k}</h3>')
         f.write('<ul>')
         for file in tags[k]:
-            f.write(f'<li><a href="./{file.lower()}">{file.split('.')[0].title()}</a></li>')
+            f.write(f'<li><a href="./outputs/{file.lower()}">{file.split('.')[0].title()}</a></li>')
         f.write('</ul>')
             
