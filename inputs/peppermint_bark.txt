@@ -1,0 +1,23 @@
+servings = '8x8 pan'
+tags = 'Candy'
+
+recipie = """
+Add, Chill 1 hour
+	Layer in pan
+		Layer in pan, Chill 10 minutes
+			Layer in pan, Chill 10 minutes
+				Add
+					Melt
+						6oz Whilte chocolate
+						1/2 teaspoon vegtable oil
+					1/4 teaspooon peppermint extract
+			Add
+				Melt
+					6oz semi/dark chocolate
+					1/2 teaspoon vegtable oil
+				1/4 teaspooon peppermint extract
+		Melt
+			6oz Whilte chocolate
+			1/2 teaspoon vegtable oil
+	Crushed candy cane
+"""

@@ -1,0 +1,24 @@
+servings = '2-3 Dozen'
+tags = 'Candy'
+
+recipie = """
+Sprinkle on top
+	Coat
+		Roll into balls, Freeze 10 minutes
+			Chill 2 hours
+				Mix into dough
+					Remove heat, Rest 10 minutes
+						Boil 30 secconds
+							Mix
+								Boil at med high for 2 minutes
+									Mix/Melt
+										1 cup brown sugar
+										1/2 cup butter
+								1/4 cup whipping cream
+								1 tea instant coffee
+								pinch salt
+					2 cup powdered sugar (sifted)
+		Melt
+			~12 oz chocolate for coating
+	Chocolate jimmies
+"""

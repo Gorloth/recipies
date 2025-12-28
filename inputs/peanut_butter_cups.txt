@@ -1,0 +1,16 @@
+servings = ''
+tags = 'Candy'
+
+recipie = """
+Coat
+	Add
+		Add
+			Mix/Melt
+				1/2 cup butter
+				1/2 cup Peanut butter
+			1 cup powdered sugar
+		2/3 cups grahm cracker crumbs
+	Mix/Melt
+		2 cups milk chocolate chips
+		2 tablespoons shortning
+"""

@@ -1,0 +1,16 @@
+servings = '8x8'
+tags = 'Fudge, Candy'
+
+recipie = """
+Pour in pan
+	Beat till lost sheen
+		Add
+			Remove from heat
+				Reduce heat, Simmer till 238F, Don't stir
+					Mix till boiling
+						2 cups sugar
+						1/2 cup cocoa powder
+						1 cup milk
+			4 tablespoons butter
+			1 teaspoon vanilla
+"""

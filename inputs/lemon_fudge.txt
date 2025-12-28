@@ -1,0 +1,21 @@
+servings = '9x13'
+tags = 'Fudge, Candy'
+
+recipie = """
+Add put in 9x13 pan
+	Add, mix smooth
+		Cook till 235F, remove heat
+			Cook at medium heat, till sugar disolves
+				Add
+					Melt
+						1/2 cup butter
+					2 cup sugar
+					3/4 cup sour cream
+					1/2 teaspoon salt
+		2 cup white chocolate chips (1 bag)
+		7oz marshamallow cream
+	1/2 tablespoon lemon extract
+	lemon zest
+	1/2 teaspooon citric acid
+	yellow food coloring
+"""

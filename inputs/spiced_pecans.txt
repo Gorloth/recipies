@@ -1,0 +1,17 @@
+servings = ''
+tags = 'Candy'
+
+recipie = """
+Mix, Spread on parchement sheet
+	Mix, Cook till no mixture, ~3-4 minutes
+		Roast At 350F, for 10 minutes
+			2 cups Pecans
+		Mix, Boil 1 minutes
+			1/2 Cup brown sugar
+			3 tablespoons orange juic
+	Mix
+		1/2 teaspoon cardamon
+		1/2 teaspoon cloves
+		1/2 teaspooon black pepper
+		Orange zest
+"""

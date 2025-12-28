@@ -1,0 +1,12 @@
+servings = '1 Batch'
+tags = 'Candy'
+
+recipie = """
+Drop spoonfulls on waxed paper
+	Add
+		Melt
+			2 pounds white chocolate almond bark
+			1 bag semi sweet chocolate chips
+			1 bag milk chocolate chips
+		32 oz unstaled dry roasted peanuts
+"""

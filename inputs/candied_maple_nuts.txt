@@ -1,0 +1,13 @@
+servings = ''
+tags = 'Candy'
+
+recipie = """
+Reduce to low simmer, cook from thin to thick to crystalized
+	Cook medium/high to boiling
+		Add
+			2 cups nuts (walnuts/pecans)
+			Combine in pan
+				1/2 cup maple syrup
+				1.5 teaspoon cinnamon
+				1/2 teaspoon salt
+"""

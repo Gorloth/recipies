@@ -1,0 +1,9 @@
+servings = ''
+tags = 'Candy'
+
+recipie = """
+Mix till light tick and creamy (~5 minutes)
+	Remove from heat, Cool to 175F
+		Boil to 235F
+			2 cups maple syrup
+"""

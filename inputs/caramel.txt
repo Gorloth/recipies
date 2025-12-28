@@ -1,0 +1,18 @@
+servings = ''
+tags = 'Candy'
+
+recipie = """
+Mix, Cook to 245-250F
+	Mix/Melt
+		1 cup heavey cream
+		4 tablespoons butter
+		1/4 teaspoons salt
+	Cook to 250F (soft) - 325F (firm)
+		1.5 cups sugar
+		1/4 cup corn syrup
+		1/4 cup water
+"""
+Notes = '<b>Minimize stirring</b>'
+Salted = 'Increase salt to 2 teaspoons'
+Chocolate = 'Increase cream to 1.5 cup, add 10oz chocolate with it'
+Gingerbread = 'Add 2 tablespoons molasses to sugar. Add 1/2 teaspoon cinnamon, 1/2 teaspoon ginger, 1/4 teaspoon nutmeg, 1/8 teaspoon cloves with vanilla'

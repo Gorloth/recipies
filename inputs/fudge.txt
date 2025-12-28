@@ -1,0 +1,15 @@
+servings = '9x13'
+tags = 'Fudge, Candy'
+
+recipie = """
+Add
+	Add, Mix till melted
+		Remove from heat
+			Mix, Boil to 238F, ~5 minutes
+				3 cups sugar
+				3/4 cup butter
+				2/3 cup evaporated milk (5oz)
+		12 oz semi sweet chocolate chips
+	7oz marshmallow cream
+	1 teaspoon vanilla
+"""

@@ -1,0 +1,18 @@
+servings = '9x13'
+notes = '*Subsitute white chocolate chips + 1 tablespoon of cinnamon'
+tags = 'Fudge, Candy'
+
+recipie = """
+Place in 9x13 pan
+	Add
+		Add - Stir till melted
+			Remove heat
+				Mix - Boil till 234 F
+					3 cup sugar
+					3/4 cup butter
+					5oz evaporated milk
+			10oz cinnamon chips*
+		Mix
+			7oz marshmallow cream
+			2 teaspoons vanilla
+"""
