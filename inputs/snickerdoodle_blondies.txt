@@ -1,0 +1,22 @@
+servings = '9x13'
+tags = 'Cinnamon, Brownies'
+
+recipie = """
+Bake at 350F, for 25-30 minutes
+	Sprinkle over batter
+		Mix, spread in pan
+			Mix
+				2 2/3 cup flour
+				2 teaspoon baking powder
+				1 teaspoon salt
+			Add
+				Mix
+					2 cup brown sugar
+					1 cup butter, soft
+				2 eggs
+				1 tablespoon vanilla
+		Mix
+			2 tablespoon sugar
+			2 tablespoon cinnamon
+			1/8 teaspoon ginger
+"""

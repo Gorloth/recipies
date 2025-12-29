@@ -1,0 +1,16 @@
+servings = ''
+tags = 'Cookies'
+
+recipie = """
+Bake at 350F, for ~15 minutes
+	Pipe onto pan
+		Add
+			Add
+				Mix
+					1 cup butter, soft
+					1/2 cup sugar
+				1/4 teaspoon salt
+				1 egg
+				1.5 teaspoon vanilla
+			2 cup flour
+"""

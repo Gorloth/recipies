@@ -1,0 +1,20 @@
+servings = ''
+tags = 'Cookies'
+
+recipie = """
+Bake at 400F, for 5-8 minutes
+	Roll to 1/4 inch
+		Chill for 30 minutes
+			Mix
+				Mix
+					Mix
+						3 cup flour
+						1 cup sugar
+						1.5 teaspoon baking powder
+						1/2 teaspoon salt
+					1 cup butter, soft
+				Mix
+					1 egg
+					3 tablespoon milk
+					1/2 teaspoon almond extract
+"""

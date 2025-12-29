@@ -1,6 +1,6 @@
 servings = '9x13'
 notes = '*Subsitute white chocolate chips + 1 tablespoon of cinnamon'
-tags = 'Fudge, Candy'
+tags = 'Fudge, Candy, Cinnamon'
 
 recipie = """
 Place in 9x13 pan
@@ -13,6 +13,6 @@ Place in 9x13 pan
 					5oz evaporated milk
 			10oz cinnamon chips*
 		Mix
-			7oz marshmallow cream
+			7oz marshmallow creme
 			2 teaspoons vanilla
 """

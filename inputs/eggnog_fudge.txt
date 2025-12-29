@@ -1,0 +1,18 @@
+servings = '8x8'
+tags = 'Fudge, Candy'
+
+recipie = """
+Pour in pan, dust nutmeg on top
+	Mix
+		Add, Mix till melted
+			Remove heat
+				Boil till 234F
+					1/2 cup butter
+					3/4 cup eggnog
+					2 cup sugar
+			2 cups white chocolate chips
+		7oz marshmallow creme
+		2 teaspoon vanilla
+		1/2 teaspoon nutmeg
+		dash rum extract (optional)
+"""

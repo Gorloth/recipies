@@ -1,0 +1,27 @@
+servings = '3-4 dozen'
+tags = 'Cookies, Brownies'
+
+recipie = """
+Bake at 350F, for 8-10 minutes
+	Cover and Chill, for 20 minutes
+		Add
+			Mix
+				Mix
+					Melt, Let cool a little
+						4oz semisweet chocolate
+						4oz dark chocolate
+					Add
+						Mix
+							1/3 cup butter
+							3/4 cup brown sugar
+							1/4 cup sugar
+						2 eggs
+						1 teaspoon vanilla
+				Mix
+					3/4 cup flour
+					1/4 cup cocoa powder
+					1 teaspoon espresso powder
+					1 teaspoon baking powder
+					1/4 teaspoon salt
+			1 bag chocolate chips
+"""

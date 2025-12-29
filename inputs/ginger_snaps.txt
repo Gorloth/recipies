@@ -1,0 +1,20 @@
+servings = '3 dozen'
+tags = 'Cookies'
+
+recipie = """
+Bake at 375F, for 8-10 minutes
+	Roll into balls, Roll in sugar
+		Mix
+			Mix
+				1 cup brown sugar
+				3/4 cup oil
+				1/4 cup molasses
+				1 egg
+			Mix
+				2 cup flour
+				2 teaspoon baking soda
+				1/4 teaspoon salt
+				1/2 teaspoon cloves
+				1 teaspoon cinnamon
+				1 teaspoon ginger
+"""

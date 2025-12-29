@@ -1,0 +1,19 @@
+servings = '4 dozen'
+tags = 'Cookies, Cinnamon'
+
+recipie = """
+Bake at 400F, for 8-10 minutes
+	Mix
+		Add
+			Mix
+				1/2 cup butter
+				1/2 cup shortening
+				1.5 cup sugar
+			2 eggs
+			2 teaspoon vanilla
+		Mix
+			2 3/4 cup flour
+			2 teaspoon cream of tartar
+			1 teaspoon baking soda
+			1/4 teaspoon salt
+"""

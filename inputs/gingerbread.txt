@@ -1,0 +1,21 @@
+servings = '2 large houses?'
+tags = 'Cookies'
+
+recipie = """
+Bake at 375F, for 6-8 minutes
+	Mix, Chill 3 hours
+		Mix
+			Mix
+				1 cup shortening
+				1 cup sugar
+			1 egg
+			1 cup molasses
+			2 table vinegar
+		Mix
+			4.5 cup flour, sifted
+			1.5 teaspoon baking soda
+			1/2 teaspoon salt
+			2-3 teaspoon ginger
+			1 teaspoon cinnamon
+			1 teaspoon cloves
+"""

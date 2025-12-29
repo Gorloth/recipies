@@ -1,0 +1,17 @@
+servings = ''
+tags = 'Cookies'
+
+recipie = """
+Turn oven off, let cool in oven 60 minutes
+	Bake at 225F, for 60 minutes, 
+		Pipe onto tray
+			Mix
+				Beat to stiff peaks
+					Mix
+						Froth
+							4 egg whites, room temp
+						1/2 teaspoon cream of tartar
+						1/8 teaspoon salt
+						1 cup sugar
+				1 teaspoon vanilla
+"""

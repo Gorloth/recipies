@@ -2,8 +2,8 @@ servings = '9x13?'
 tags = 'Candy'
 
 recipie = """
-Pout into pan
-	Add, Mix Till dull
+Pour into pan
+	Add, Mix till dull
 		Pour syrup into whites, Mix
 			Cook with no stirring, till 260F
 				Cook with stirring, till disolved

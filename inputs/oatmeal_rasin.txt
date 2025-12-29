@@ -1,0 +1,21 @@
+servings = ''
+tags = 'Cookies'
+
+recipie = """
+Bake at 375F, for 7-10 minutes
+	Add
+		Add
+			Add
+				Mix
+					3/4 cup sugar
+					1/4 cup brown sugar
+					1/2 cup butter
+				1/2 teaspoon vanilla
+				1 egg
+			3/4 cup flour
+			1/2 teaspoon baking soda
+			1/2 teaspoon cinnamon
+			1/4 teaspoon salt
+		1.5 cup quick oats
+		1 cup rasins (optional)
+"""

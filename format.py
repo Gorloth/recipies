@@ -117,16 +117,19 @@ def output_html(recipie, directory):
         for n in recipie.get_leaf_nodes():
             if len(n.inst) > 0:
                 f.write('<tr>')
-                f.write(f'<td colspan="{1+recipie.depth-n.depth}">{n.inst}</td>')
-                while n.parent is not None and n.parent.printed is False:
-                    n = n.parent
-                    f.write(f'<td rowspan="{n.count()}">{n.inst.replace(',',',<br>')}</td>')
-                    n.printed = True
+                if n.parent is None:
+                    f.write(f'<td colspan="{1+recipie.depth}", style="text-align: center;"><b>{n.inst}</b></td>')
+                else:
+                    f.write(f'<td colspan="{1+recipie.depth-n.depth}">{n.inst}</td>')
+                    while n.parent is not None and n.parent.printed is False:
+                        n = n.parent
+                        f.write(f'<td rowspan="{n.count()}">{n.inst.replace(',',',<br>')}</td>')
+                        n.printed = True
                 f.write('</tr>')
         f.write('</table>')
 
         for k, v in recipie.data.items():
-            f.write(f'<h4>{k.title()}:</h4>{v}')
+            f.write(f'<h4>{k.title()}:</h4>{v}<br>')
             
         f.write('<br><b>Tags:</b>')
         for tag in recipie.tags.split(','):

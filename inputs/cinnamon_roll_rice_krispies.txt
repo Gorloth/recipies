@@ -1,0 +1,25 @@
+servings = '9x13'
+tags = 'Cinnamon, Krispies'
+
+recipie = """
+Mix
+	Remove Heat
+		Melt together
+			Mix
+				Melt
+					1/4 cup butter
+				1/8 teaspoon salt
+				2 teaspoon molasses
+				2 teaspoon cinnamon
+			10.5 oz mini marshmallows
+	1 teaspoon vanilla
+	6 cups rice krispies
+Cream Cheese Frosting
+Add
+	Add
+		Mix
+			1/4 cup butter, soft
+			4oz cream cheese, soft
+		1/2 teaspoon vanilla
+	2 cup powdered sugar
+"""

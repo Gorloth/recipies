@@ -1,0 +1,15 @@
+servings = '3 dozen'
+tags = 'Cookies, Condiments'
+
+recipie = """
+Bake at 350F, for 12 minutes
+	Mix
+		Mix
+			1 cup sugar
+			2 cup flour
+			1 teaspoon baking soda
+			1 pinch salt
+		Mix
+			1 cup mayonnaise
+			1 teaspoon vanilla
+"""
