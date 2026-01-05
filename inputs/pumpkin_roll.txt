@@ -1,0 +1,23 @@
+servings = '1 roll'
+tags = 'Misc'
+
+recipie = """
+Cake
+Roll up and wrap in towel, for 20 minutes
+	Bake at 375F for 15 minutes
+		spread over 9x13 pan, on parchment paper
+			Mix
+				3/4 cup flour
+				1 cup sugar
+				1 teaspoon baking soda
+				2 teaspoon pumpkin pie spice
+				1 cup pumpkin
+				3 eggs
+				1 teaspoon lemon juice
+Filling
+Mix
+	8oz cream cheese, soft
+	1/4 cup butter, soft
+	1 teaspoon vanilla
+	1 cup powdered sugar
+"""

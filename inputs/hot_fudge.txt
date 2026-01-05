@@ -1,0 +1,17 @@
+servings = ''
+tags = 'Sauce'
+
+recipie = """
+Mix
+	Remove heat
+		Mix/melt, Boil ~3 minutes, till 220F
+			4 oz semisweet chocolate
+			6 tablespoon sugar
+			1/2 cup heavy cream
+			1/4 cup light corn syrup
+			3 tablespoon cocoa powder
+			1/8 teaspoon salt
+			dash espresso powder (optional)
+	2 tablespoon butter
+	1 teaspoon vanilla
+"""

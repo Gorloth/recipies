@@ -1,0 +1,17 @@
+servings = '2x 9inch pie'
+tags = 'Crust'
+
+recipie = """
+Bake at 350F, for 60-75 minutes
+	Soften 5 minutes, Roll out
+		Max 2 rounds, Wrap in plastic, Refrigerate 1 hour
+			Mix in 2-4 tablespoons, of water 1 at a time
+				Mix
+					Mix
+						Mix
+							2.5 cup flour
+							1 teaspoon salt
+							1 teaspoon sugar
+						2 sticks cold butter in 1/2 inch cubes
+					1/4 cup cold water
+"""

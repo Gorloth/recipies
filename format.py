@@ -1,11 +1,12 @@
 import tomllib
 import os
+import re
 
 class Recipie:
     def __init__(self, title='', servings='', tags=''):
         self.title=title
         self.servings=servings
-        self.tags=tags
+        self.tags=tags.title()
         
         self._current_node=None
         self.nodes=[]
@@ -96,6 +97,13 @@ class Node:
         for n in self.children:
             count += n.count()
         return(count)
+        
+    def get_html_inst(self):
+        html = self.inst
+        links = re.findall(r'\*(.*?)\*',html)
+        for link in links:
+            html = html.replace('*'+link+'*', f'<a href="./{link.lower().replace(' ','_')}.html">{link}</a>')
+        return(html)
 
 def load(name):
     with open(name, 'rb') as f:
@@ -118,12 +126,12 @@ def output_html(recipie, directory):
             if len(n.inst) > 0:
                 f.write('<tr>')
                 if n.parent is None:
-                    f.write(f'<td colspan="{1+recipie.depth}", style="text-align: center;"><b>{n.inst}</b></td>')
+                    f.write(f'<td colspan="{1+recipie.depth}", style="text-align: center;"><b>{n.get_html_inst()}</b></td>')
                 else:
-                    f.write(f'<td colspan="{1+recipie.depth-n.depth}">{n.inst}</td>')
+                    f.write(f'<td colspan="{1+recipie.depth-n.depth}">{n.get_html_inst()}</td>')
                     while n.parent is not None and n.parent.printed is False:
                         n = n.parent
-                        f.write(f'<td rowspan="{n.count()}">{n.inst.replace(',',',<br>')}</td>')
+                        f.write(f'<td rowspan="{n.count()}">{n.get_html_inst().replace(',','<br>')}</td>')
                         n.printed = True
                 f.write('</tr>')
         f.write('</table>')

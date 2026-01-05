@@ -1,5 +1,5 @@
 servings = '8x8'
-tags = 'Fudge, Candy'
+tags = 'Fudge'
 
 recipie = """
 Place in pan, glob 1 cup reserve on top, swirl with knife

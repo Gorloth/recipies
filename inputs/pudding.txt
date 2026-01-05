@@ -1,0 +1,18 @@
+servings = "1 pie's worth"
+tags = 'Component'
+
+recipie = """
+Mix, cover 30 minutes
+	Gentle boil 2 minutes
+		Mix in the rest
+			Mix a little mixture into, the eggs to temper them
+				Reduce heat, Cook 2 minutes, remove heat
+					Mix, Cook medium-high, till bubbly and thick
+						1 cup sugar
+						1/4 cup corn starch
+						1/2 teaspoon salt
+						3 cup milk
+				2 eggs
+	3 tablespoon butter
+	1.5 teaspoon vanilla
+"""

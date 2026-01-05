@@ -1,0 +1,17 @@
+servings = "~2 cups"
+tags = 'Sauce'
+
+recipie = """
+Mix
+	Remove heat
+		Mix till smooth
+			Add, Melt
+				Melt
+					4oz bakers chocolate
+				1 cup sugar
+				1/8 teaspoon salt
+				1 tablespoon butter
+			1 cup cream
+	1/2 teaspoon vanilla
+	1 teaspoon espresso powder
+"""

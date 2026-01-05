@@ -1,0 +1,19 @@
+servings = ''
+tags = 'Component'
+
+recipie = """
+Mix to stiff peaks
+	Mix to medium peaks
+		Mix to soft peaks
+			Whip in chilled bowl, till frother
+				1.5 cup heavy whipping cream
+			Mix
+				1/4 cup cocoa powder, sifted
+				1/2 cup powdered sugar
+		Microwave ~30 secconds, to melt
+			Bloom
+				Mix
+					2 1/4 teaspoon gelatin (1 packet)
+					1/4 cup cold water
+	1/4 teaspoon of almond extract or vanilla or espresso powder
+"""

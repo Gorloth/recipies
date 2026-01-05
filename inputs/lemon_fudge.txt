@@ -1,5 +1,5 @@
 servings = '9x13'
-tags = 'Fudge, Candy'
+tags = 'Fudge'
 
 recipie = """
 Add put in 9x13 pan

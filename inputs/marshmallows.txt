@@ -1,0 +1,19 @@
+servings = ''
+tags = 'Component'
+
+recipie = """
+Place on pan to cool/set
+	Mix on high 12-15 minutes, till opaque and thick/stiff
+		Add
+			Whisk in gelatin on medium speed
+				Mix, Set aside
+					3 gelatin packets
+					1/2 cup cold water
+				Heat to full rolling boil, Heat to 240F
+					Mix 
+						1/5 cup sugar
+						1 cup light corn syrup
+						1/2 teaspoon salt
+						1 tablespoon vanilla
+			1/2 cup water
+"""

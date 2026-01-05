@@ -1,0 +1,15 @@
+servings = '~1.5 cups'
+tags = 'Sauce'
+
+recipie = """
+Add
+	Remove heat
+		Slowly add, Boil 1 minute
+			Cook 1 minute, No stirring
+				Add, Stir to combine
+					Melt over medium heat
+						1 cup sugar
+					6 tablespoon butter
+			1/2 cup heavy cream
+	1 teaspoon salt
+"""

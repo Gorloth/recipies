@@ -1,0 +1,19 @@
+servings = '9x13'
+tags = 'Krispies'
+
+recipie = """
+Layer in 9x13 pan
+	Mix
+		Melt
+			Melt
+				4 tablespoon butter
+				5.5 cup mini marshamallows
+				1/4 cup cocoa powder
+			1/2 cup chocolate chips
+		5 cup rice krispies
+	Mix
+		Melt
+			3 tablespoon butter
+			4 cup mini marshamallows
+		6 cup rice krispies
+"""

@@ -1,0 +1,11 @@
+servings = ''
+tags = 'Frosting'
+
+recipie = """
+Add
+	Mix
+		8 oz cream cheese, soft
+		1/4 cup butter, soft4 cups powdered sugar
+	1 teaspoon vanilla
+	1/2 teaspoon maple extract
+"""

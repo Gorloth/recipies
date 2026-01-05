@@ -1,0 +1,13 @@
+servings = 'enough for 96 mini cupcakes'
+tags = 'Frosting'
+
+recipie = """
+Add gradually
+	Mix
+		Mix to fluff
+			2 sticks butter, soft
+		8oz cream cheese, soft
+		1/5 cup peanut butter
+		2 teaspoon vanilla
+	4.5 cup powdered sugar
+"""

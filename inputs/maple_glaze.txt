@@ -1,0 +1,11 @@
+servings = ''
+tags = 'Icing'
+
+recipie = """
+Mix smooth, cool a bit
+	Melt, remove heat
+		2 tablespoon butter
+		1/3 cup maple syrup
+	1 cup powdered sugar
+	1/4 teaspoon maple extract
+"""

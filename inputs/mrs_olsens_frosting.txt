@@ -1,0 +1,13 @@
+servings = ''
+tags = 'Frosting'
+
+recipie = """
+Mix
+	Mix
+		1 pound powdered sugar (~3.5 cups)
+		1/4 teaspoon salt
+		1 stick butter, soft
+		1/4 cup milk
+	1 oz chocolate, melted
+	1 teaspoon vanilla
+"""

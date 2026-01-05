@@ -1,0 +1,16 @@
+servings = ''
+tags = 'Sauce'
+
+recipie = """
+Strain seeds
+	Add 
+		Remove heat
+			Cook medium heat, Boil 3 minutes
+				Mix
+					1 tablespoon water
+					2 teaspoon cornstarch
+				3 cup berries
+				1/4 cup sugar
+		1/2 teaspoon vanilla
+		1/4 teaspoon citric acid (optional)
+"""

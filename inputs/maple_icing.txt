@@ -1,0 +1,15 @@
+servings = ''
+tags = 'Icing'
+
+recipie = """
+Mix
+	Remove heat, cool ~15 minutes
+		Mix, Boil 1 minute
+			Melt, Boil 2 minutes
+				1/2 cup butter
+				1 cup brown sugar
+			1/4 cup milk
+			2 tablespoon maple syrup
+			pinch salt
+	2 cup powdered sugar
+"""

@@ -1,0 +1,11 @@
+servings = '9inch pie'
+tags = 'Crust'
+
+recipie = """
+Chill 30 minutes
+	Mix
+		6 tablespoon butter, melted
+		1.5 cup graham crackers, crushed
+		1/4 cup sugar
+		1 teaspoon cinnamon
+"""

@@ -1,0 +1,17 @@
+servings = ''
+tags = 'Component'
+
+recipie = """
+Stir till melted/combined
+	Add
+		Remove heat
+			Heat to simmer
+				Strain
+					Blend/Smash
+						Cook medium low heat, till soft
+							2/5 pounds berries
+							1 cup sugar
+		Mix, Let bloom
+			3 packets of gelatin
+			1/2 cup water
+"""

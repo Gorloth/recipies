@@ -1,0 +1,18 @@
+servings = "1 pie's worth"
+tags = 'Component'
+
+recipie = """
+Mix
+	Cook medium heat, till thick
+		Add
+			Mix
+				Mix
+					1/5 cup sugar
+					3 egg yolks (beaten)
+				1/2 cup cocoa powder
+				1/4 cup cornstarch
+				1/2 teaspoon salt
+			3 cup milk
+	1 tablespoon butter
+	1.5 teaspoon vanilla
+"""

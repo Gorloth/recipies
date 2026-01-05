@@ -1,0 +1,21 @@
+servings = '2 dozen'
+tags = 'Misc'
+
+recipie = """
+Bake 375F, for 12 minutes, or till brown
+	Add egg wash, sprinkle on sanding sugar
+		Fill, seal
+			Roll out into ~3inch rounds
+				Make 2 balls, chill 1-2 hours
+					Add
+						Mix
+							1 cup butter, soft
+							6oz cream cheese, soft
+					2 cup flour
+			Mix
+				2 cups pineapple preserves
+				cinnamon
+		Mix
+			1 egg
+			1 tablespoon water
+"""

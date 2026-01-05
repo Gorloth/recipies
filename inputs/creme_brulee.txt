@@ -1,0 +1,17 @@
+servings = '8 Ramekin'
+tags = 'Misc'
+
+recipie = """
+Bake at 325F, for 45 minutes
+	Place ramekins in pan, with water half way up
+		Pour into ramekins
+			Add rest of mixture
+				Add a little cream mixture
+					Remove heat, cover 15 minutes
+						Heat medium-high till boiling
+							1 quart heavey cream
+							1 vanilla bean, split/scraped
+					Whisk
+						1/2 cup vanilla sugar
+						6 egg yolks
+"""
