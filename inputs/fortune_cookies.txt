@@ -1,7 +1,7 @@
 servings = '~8'
 tags = 'Cookies'
 
-recipie = """
+recipe = """
 Bake at 350F, for ~6 minutes
 	Spoon 1 tablespoon, into a ~3 inch circle
 		Mix till flour, just disappears

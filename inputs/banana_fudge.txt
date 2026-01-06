@@ -1,7 +1,7 @@
 servings = '9x13'
 tags = 'Fudge'
 
-recipie = """
+recipe = """
 Pour on crust, Chill
 	Mix, Bake at 350F for 8 minutes
 		~24 oreos

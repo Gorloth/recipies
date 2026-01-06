@@ -1,7 +1,7 @@
 servings = '3-4 dozen'
 tags = 'Cookies, Brownies'
 
-recipie = """
+recipe = """
 Bake at 350F, for 8-10 minutes
 	Cover and Chill, for 20 minutes
 		Add

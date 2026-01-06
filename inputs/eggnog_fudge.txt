@@ -1,7 +1,7 @@
 servings = '8x8'
 tags = 'Fudge'
 
-recipie = """
+recipe = """
 Pour in pan, dust nutmeg on top
 	Mix
 		Add, Mix till melted

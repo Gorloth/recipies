@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Cookies'
 
-recipie = """
+recipe = """
 Bake at 375F, for 7-10 minutes
 	Add
 		Add

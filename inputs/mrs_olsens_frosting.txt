@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Frosting'
 
-recipie = """
+recipe = """
 Mix
 	Mix
 		1 pound powdered sugar (~3.5 cups)

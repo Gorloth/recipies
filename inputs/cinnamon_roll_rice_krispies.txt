@@ -1,7 +1,7 @@
 servings = '9x13'
 tags = 'Cinnamon, Krispies'
 
-recipie = """
+recipe = """
 Mix
 	Remove Heat
 		Melt together

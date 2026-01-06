@@ -1,7 +1,7 @@
 servings = '6 large rolls'
 tags = 'Cinnamon'
 
-recipie = """
+recipe = """
 Bake at 350F for 20 minutes
 	Roll up, Cut into 6x ~2 inch slices, Let rise in pan 30 minutes
 		Add on top, Press in

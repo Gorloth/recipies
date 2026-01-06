@@ -1,7 +1,7 @@
 servings = '9x13'
 tags = 'Cinnamon, Brownies'
 
-recipie = """
+recipe = """
 Bake at 350F, for 25-30 minutes
 	Sprinkle over batter
 		Mix, spread in pan

@@ -1,7 +1,7 @@
 servings = "1 pie's worth"
 tags = 'Component'
 
-recipie = """
+recipe = """
 Mix, cover 30 minutes
 	Gentle boil 2 minutes
 		Mix in the rest

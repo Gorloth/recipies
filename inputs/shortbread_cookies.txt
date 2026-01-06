@@ -1,7 +1,7 @@
 servings = '~2 dozen'
 tags = 'Cookies'
 
-recipie = """
+recipe = """
 Bake at 300F, for 15-20 minutes
 	Mix
 		Mix

@@ -1,7 +1,7 @@
 servings = '8x8 pan'
 tags = 'Candy'
 
-recipie = """
+recipe = """
 Add, Chill 1 hour
 	Layer in pan
 		Layer in pan, Chill 10 minutes

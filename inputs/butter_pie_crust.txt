@@ -1,7 +1,7 @@
 servings = '2x 9inch pie'
 tags = 'Crust'
 
-recipie = """
+recipe = """
 Bake at 350F, for 60-75 minutes
 	Soften 5 minutes, Roll out
 		Max 2 rounds, Wrap in plastic, Refrigerate 1 hour

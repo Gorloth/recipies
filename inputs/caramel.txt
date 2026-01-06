@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Candy'
 
-recipie = """
+recipe = """
 Mix, Cook to 245-250F
 	Mix/Melt
 		1 cup heavey cream

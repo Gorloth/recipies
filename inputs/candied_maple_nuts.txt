@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Candy'
 
-recipie = """
+recipe = """
 Reduce to low simmer, cook from thin to thick to crystalized
 	Cook medium/high to boiling
 		Add

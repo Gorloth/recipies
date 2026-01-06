@@ -1,7 +1,7 @@
 servings = "~2 cups"
 tags = 'Sauce'
 
-recipie = """
+recipe = """
 Mix
 	Remove heat
 		Mix till smooth

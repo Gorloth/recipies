@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Misc'
 
-recipie = """
+recipe = """
 Shells
 Reduce to 325F for 20 minutes
 	Bake at 450F for 15 minutes

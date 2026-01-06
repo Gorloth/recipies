@@ -1,7 +1,7 @@
 servings = '9x13?'
 tags = 'Candy'
 
-recipie = """
+recipe = """
 Pour into pan
 	Add, Mix till dull
 		Pour syrup into whites, Mix

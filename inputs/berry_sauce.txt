@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Sauce'
 
-recipie = """
+recipe = """
 Strain seeds
 	Add 
 		Remove heat

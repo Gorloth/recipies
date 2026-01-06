@@ -1,7 +1,7 @@
 servings = '2 large houses?'
 tags = 'Cookies'
 
-recipie = """
+recipe = """
 Bake at 375F, for 6-8 minutes
 	Mix, Chill 3 hours
 		Mix

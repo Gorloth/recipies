@@ -1,7 +1,7 @@
 servings = '9x13'
 tags = 'Krispies'
 
-recipie = """
+recipe = """
 Layer in 9x13 pan
 	Mix
 		Melt

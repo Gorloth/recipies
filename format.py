@@ -2,7 +2,7 @@ import tomllib
 import os
 import re
 
-class Recipie:
+class Recipe:
     def __init__(self, title='', servings='', tags=''):
         self.title=title
         self.servings=servings
@@ -12,6 +12,7 @@ class Recipie:
         self.nodes=[]
         self.depth=0
         self.data={}
+        self.used_in=[]
     
     def __str__(self):
         if self.servings:
@@ -53,7 +54,14 @@ class Recipie:
         return nodes
             
     def get_url(self):
-        return (recipie.title.replace(' ', '_') + '.html').lower()
+        return (recipe.title.replace(' ', '_') + '.html').lower()
+        
+    def get_refs(self):
+        nodes = self.get_leaf_nodes()
+        refs = []
+        for node in nodes:
+            refs = refs + node.refs
+        return(refs)
 
 class Node:
     def __init__(self, instruction: str):
@@ -63,6 +71,7 @@ class Node:
         self.children=[]
         self.parent=None
         self.printed=False
+        self.refs = re.findall(r'\*(.*?)\*', self.inst)
         
     def __str__(self):
         return ' '*self.INDENT*self.depth + self.inst
@@ -98,37 +107,40 @@ class Node:
             count += n.count()
         return(count)
         
+        
     def get_html_inst(self):
         html = self.inst
-        links = re.findall(r'\*(.*?)\*',html)
-        for link in links:
-            html = html.replace('*'+link+'*', f'<a href="./{link.lower().replace(' ','_')}.html">{link}</a>')
+        for ref in self.refs:
+            html = html.replace('*'+ref+'*', format_link(ref))
         return(html)
+    
+def format_link(link):
+    return(f'<a href="./{link.lower().replace(' ','_')}.html">{link}</a>')
 
 def load(name):
     with open(name, 'rb') as f:
         data = tomllib.load(f)
-    recipie = Recipie(title = os.path.basename(name).split('.')[0].replace('_',' ').title(), servings = data.pop('servings'), tags = data.pop('tags'))
-    for line in data.pop('recipie').split('\n'):
+    recipe = Recipe(title = os.path.basename(name).split('.')[0].replace('_',' ').title(), servings = data.pop('servings'), tags = data.pop('tags'))
+    for line in data.pop('recipe').split('\n'):
         indent = len(line) - len(line.lstrip())
-        recipie.add_step(line.strip(), indent)
-    recipie.data = data
-    return recipie
+        recipe.add_step(line.strip(), indent)
+    recipe.data = data
+    return recipe
 
-def output_html(recipie, directory):
-    name = recipie.get_url()
+def output_html(recipe, directory):
+    name = recipe.get_url()
     with open(directory + '/' + name, 'w') as f:
         f.write('<style>table, th, td { padding-left: 5px; padding-right: 5px; border: 1px solid black; border-collapse: collapse; } </style>')
-        f.write(f'<h1>{recipie.title}</h1>')
+        f.write(f'<h1>{recipe.title}</h1>')
         f.write('<table>')
-        f.write(f'<td colspan="{1+recipie.depth}", style="text-align: center;"><b>Servings:</b> {recipie.servings}</td>')
-        for n in recipie.get_leaf_nodes():
+        f.write(f'<td colspan="{1+recipe.depth}", style="text-align: center;"><b>Servings:</b> {recipe.servings}</td>')
+        for n in recipe.get_leaf_nodes():
             if len(n.inst) > 0:
                 f.write('<tr>')
                 if n.parent is None:
-                    f.write(f'<td colspan="{1+recipie.depth}", style="text-align: center;"><b>{n.get_html_inst()}</b></td>')
+                    f.write(f'<td colspan="{1+recipe.depth}", style="text-align: center;"><b>{n.get_html_inst()}</b></td>')
                 else:
-                    f.write(f'<td colspan="{1+recipie.depth-n.depth}">{n.get_html_inst()}</td>')
+                    f.write(f'<td colspan="{1+recipe.depth-n.depth}">{n.get_html_inst()}</td>')
                     while n.parent is not None and n.parent.printed is False:
                         n = n.parent
                         f.write(f'<td rowspan="{n.count()}">{n.get_html_inst().replace(',','<br>')}</td>')
@@ -136,30 +148,44 @@ def output_html(recipie, directory):
                 f.write('</tr>')
         f.write('</table>')
 
-        for k, v in recipie.data.items():
+        for k, v in recipe.data.items():
             f.write(f'<h4>{k.title()}:</h4>{v}<br>')
             
         f.write('<br><b>Tags:</b>')
-        for tag in recipie.tags.split(','):
+        for tag in recipe.tags.split(','):
             tag = tag.strip()
             f.write(f' <a href="../index.html#{tag.lower()}">{tag}</a>')
+            
+        if len(recipe.used_in) > 0:
+            f.write('<br><b>Used in: </b>')
+            text = ''
+            for ref in recipe.used_in:
+                text += (format_link(ref) + ',')
+            f.write(text[0:-1])
                 
-recipies = []
+recipes = []
                 
 for file in os.listdir('./inputs'):
-    recipie = load('./inputs/'+file)
-    output_html(recipie, './outputs')
-    recipies.append(recipie)
+    recipe = load('./inputs/'+file)
+    recipes.append(recipe)
     
 tags = {}
-for recipie in recipies:
-    for tag in recipie.tags.split(','):
+for recipe in recipes:
+    for tag in recipe.tags.split(','):
         tag = tag.strip()
         if tag in tags:
-            tags[tag].append(recipie.get_url())
+            tags[tag].append(recipe.get_url())
         else:
-            tags[tag] = [recipie.get_url()]
+            tags[tag] = [recipe.get_url()]
+    
+    for ref in recipe.get_refs():
+        for other in recipes:
+            if other.title == ref:
+                other.used_in.append(recipe.title)
+        
 
+for recipe in recipes:
+    output_html(recipe, './outputs')
 
 with open( './index.html', 'w') as f:
     for k in sorted(tags.keys()):

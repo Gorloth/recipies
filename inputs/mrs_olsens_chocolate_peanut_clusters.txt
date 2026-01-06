@@ -1,7 +1,7 @@
 servings = '1 Batch'
 tags = 'Candy'
 
-recipie = """
+recipe = """
 Drop spoonfulls on waxed paper
 	Add
 		Melt

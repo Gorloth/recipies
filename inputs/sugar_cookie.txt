@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Cookies'
 
-recipie = """
+recipe = """
 Bake at 400F, for 5-8 minutes
 	Roll to 1/4 inch
 		Chill for 30 minutes

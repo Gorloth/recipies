@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Icing'
 
-recipie = """
+recipe = """
 Mix
 	Remove heat, cool ~15 minutes
 		Mix, Boil 1 minute

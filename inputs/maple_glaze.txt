@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Icing'
 
-recipie = """
+recipe = """
 Mix smooth, cool a bit
 	Melt, remove heat
 		2 tablespoon butter

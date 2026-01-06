@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Cookies'
 
-recipie = """
+recipe = """
 Turn oven off, let cool in oven 60 minutes
 	Bake at 225F, for 60 minutes, 
 		Pipe onto tray

@@ -1,7 +1,7 @@
 servings = 'enough for 96 mini cupcakes'
 tags = 'Frosting'
 
-recipie = """
+recipe = """
 Add gradually
 	Mix
 		Mix to fluff

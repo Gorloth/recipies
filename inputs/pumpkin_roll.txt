@@ -1,7 +1,7 @@
 servings = '1 roll'
 tags = 'Misc'
 
-recipie = """
+recipe = """
 Cake
 Roll up and wrap in towel, for 20 minutes
 	Bake at 375F for 15 minutes

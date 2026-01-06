@@ -1,0 +1,30 @@
+servings = '2 9inch rounds'
+tags = 'Cake, Condiments'
+
+recipe = """
+Cake
+Bake at 350F, for 30 minutes
+	Mix
+		Mix
+			Mix
+				1.5 cup brown sugar
+				3/4 cup butter, soft
+				2 eggs
+		1/2 cup ketchup
+		1/2 cup water
+		red rood coloring (optional)
+	Mix
+		2 cups flour
+		2 teaspoon baking powder
+		1 teaspoon baking soda
+		1.5 teaspoon cinnamon
+		1/2 teaspoon nutmeg
+		1/2 teaspoon ginger
+Frosting
+Add
+	Mix
+		6oz cream cheese, soft
+		3/4 cup butter, soft
+		1 teaspoon vanilla
+	4 cup powdered sugar
+"""

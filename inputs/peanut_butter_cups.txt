@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Candy'
 
-recipie = """
+recipe = """
 Coat
 	Add
 		Add

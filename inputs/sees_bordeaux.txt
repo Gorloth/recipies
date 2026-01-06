@@ -1,7 +1,7 @@
 servings = '2-3 Dozen'
 tags = 'Candy'
 
-recipie = """
+recipe = """
 Sprinkle on top
 	Coat
 		Roll into balls, Freeze 10 minutes

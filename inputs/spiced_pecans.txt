@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Candy'
 
-recipie = """
+recipe = """
 Mix, Spread on parchement sheet
 	Mix, Cook till no mixture, ~3-4 minutes
 		Roast At 350F, for 10 minutes

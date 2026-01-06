@@ -1,7 +1,7 @@
 servings = '9x13'
 tags = 'Fudge'
 
-recipie = """
+recipe = """
 Add put in 9x13 pan
 	Add, mix smooth
 		Cook till 235F, remove heat

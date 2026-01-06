@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Component'
 
-recipie = """
+recipe = """
 Place on pan to cool/set
 	Mix on high 12-15 minutes, till opaque and thick/stiff
 		Add

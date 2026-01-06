@@ -1,7 +1,7 @@
 servings = '8x8'
 tags = 'Fudge'
 
-recipie = """
+recipe = """
 Place in pan, glob 1 cup reserve on top, swirl with knife
 	Add all but 1 cup
 		Add

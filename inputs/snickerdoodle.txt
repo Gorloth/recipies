@@ -1,7 +1,7 @@
 servings = '4 dozen'
 tags = 'Cookies, Cinnamon'
 
-recipie = """
+recipe = """
 Bake at 400F, for 8-10 minutes
 	Mix
 		Add

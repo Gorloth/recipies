@@ -1,7 +1,7 @@
 servings = '3 dozen'
 tags = 'Cookies, Condiments'
 
-recipie = """
+recipe = """
 Bake at 350F, for 12 minutes
 	Mix
 		Mix

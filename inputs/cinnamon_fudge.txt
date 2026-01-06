@@ -2,7 +2,7 @@ servings = '9x13'
 notes = '*Subsitute white chocolate chips + 1 tablespoon of cinnamon'
 tags = 'Fudge, Cinnamon'
 
-recipie = """
+recipe = """
 Place in 9x13 pan
 	Add
 		Add - Stir till melted

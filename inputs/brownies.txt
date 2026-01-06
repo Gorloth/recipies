@@ -1,0 +1,18 @@
+servings = '9x13'
+tags = 'Brownies'
+
+recipe = """
+Bake at 350F for 45 minutes
+	Add
+		Whisk together
+			Add/Melt
+				Melt
+					2 sticks butter
+				8oz dark chocolate
+			4 eggs
+			1/2 teaspoon salt
+			1 cup sugar
+			1 cup brown sugar
+			2 teaspoon vanilla
+		1 cup flour
+"""

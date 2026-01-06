@@ -1,7 +1,7 @@
 servings = '2 dozen'
 tags = 'Misc'
 
-recipie = """
+recipe = """
 Bake 375F, for 12 minutes, or till brown
 	Add egg wash, sprinkle on sanding sugar
 		Fill, seal

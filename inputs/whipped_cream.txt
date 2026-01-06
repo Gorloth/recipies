@@ -1,7 +1,7 @@
 servings = "1 pie's worth"
 tags = 'Component'
 
-recipie = """
+recipe = """
 Freeze bowl 10+ minutes
 Mix till stiff peaks
 	1 cup heavy cream

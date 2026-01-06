@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Component'
 
-recipie = """
+recipe = """
 Mix to stiff peaks
 	Mix to medium peaks
 		Mix to soft peaks

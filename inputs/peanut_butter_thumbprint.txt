@@ -1,7 +1,7 @@
 servings = '2 dozen'
 tags = 'Cookies, Gluten free, Vegan'
 
-recipie = """
+recipe = """
 Add kiss to middle
 	Bake at 350F, for 8-10 minutes
 		Place ball of dough on pan, indent middle

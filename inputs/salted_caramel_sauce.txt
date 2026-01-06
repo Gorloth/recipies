@@ -1,7 +1,7 @@
 servings = '~1.5 cups'
 tags = 'Sauce'
 
-recipie = """
+recipe = """
 Add
 	Remove heat
 		Slowly add, Boil 1 minute

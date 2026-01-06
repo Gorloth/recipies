@@ -1,7 +1,7 @@
 servings = '3 dozen'
 tags = 'Cookies'
 
-recipie = """
+recipe = """
 Bake at 375F, for 8-10 minutes
 	Roll into balls, Roll in sugar
 		Mix

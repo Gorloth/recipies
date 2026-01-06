@@ -1,7 +1,7 @@
 servings = ''
 tags = 'Sauce'
 
-recipie = """
+recipe = """
 Mix
 	Remove heat
 		Mix/melt, Boil ~3 minutes, till 220F

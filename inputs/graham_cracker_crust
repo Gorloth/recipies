@@ -1,7 +1,7 @@
 servings = '9inch pie'
 tags = 'Crust'
 
-recipie = """
+recipe = """
 Chill 30 minutes
 	Mix
 		6 tablespoon butter, melted
