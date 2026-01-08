@@ -1,0 +1,24 @@
+servings = '~12 cupcakes'
+tags = 'Cupcakes'
+
+recipe = """
+Bake at 350F, for 20 minutes
+	Add
+		Add
+			Add one at a time
+				Add
+					Mix
+						1 1/4 cup flour
+						1/2 cup sugar
+						1/2 cup brown sugar
+						3/4 teaspoon baking soda
+						1/2 teaspoon baking powder
+						1/2 teaspoon salt
+						1 teaspoon cinnamon
+						1/4 teaspoon nutmeg
+					3/4 cup canola oil
+				2 eggs
+			1/2 tablespoon vanilla
+			2 tablespoon milk
+		1/5 cup carrot, grated
+"""

@@ -1,0 +1,12 @@
+servings = ''
+tags = 'Frosting'
+
+recipe = """
+Mix 
+	Add
+		Mix
+			8oz cream cheese, soft
+			1/2 cup butter, soft
+		3.5 cup powdered sugar
+	1 teaspoon vanilla
+"""

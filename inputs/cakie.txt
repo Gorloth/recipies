@@ -1,0 +1,21 @@
+servings = '8inch round'
+tags = 'Cake, Cookies'
+
+recipe = """
+Bake at 350F, for 20-25 minutes
+	Add
+		Mix
+			Add
+				Mix
+					1/2 cup + 3/4 tablespoon butter, soft
+					1/4 cup sugar
+					1/4 cup brown sugar
+				1 egg
+				1/4 cup vegtable oil
+				1/8 teaspoon vanilla
+			Mix
+				1 cup flour
+				1 teaspoon baking powder
+				1/4 teaspoon salt
+		1/2 cup chocolate chips
+"""

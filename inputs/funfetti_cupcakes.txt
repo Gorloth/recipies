@@ -1,0 +1,22 @@
+servings = '~15 cupcakes'
+tags = 'Cupcakes'
+
+recipe = """
+Bake at 350F for 15ish minutes
+	Fill cupcakes 2/3 full
+		Add
+			Add alternating, wet and dry
+				Mix
+					Add one at a time
+						Mix
+							1 stick butter, soft
+							1 1/4 cup sugar
+						3 eggs
+					1 tablespoon vanilla
+				Mix
+					1.5 cup flour
+					1 teaspoon baking powder
+					1/2 teaspoon salt
+				3/4 cup buttermilk
+			1/2 cup sprinkles
+"""

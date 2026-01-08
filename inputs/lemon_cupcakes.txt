@@ -1,0 +1,26 @@
+servings = '~12-15 cupcakes'
+tags = 'Cupcakes, Cake'
+
+recipe = """
+Cake
+Bake at 350F, for 20 minutes
+	Mix
+		Mix
+			Mix
+				Mix
+					1/2 cup butter, soft
+					1 cup sugar
+				2 eggs
+				2 teaspoon vanilla
+			1/5 cup flour
+			2 teaspoon baking powder
+			1/2 teaspoon salt
+		1/2 cup milk
+		4-6 tablespoon lemon juice*
+		2 tablespoon lemon zest*
+Frosting
+1 x *Raspberry Frosting*
+"""
+
+Cake = 'for a 9inch round bake for 30 minutes'
+Notes = '*approximatly 2 medium lemons'

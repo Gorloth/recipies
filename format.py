@@ -130,37 +130,38 @@ def load(name):
 def output_html(recipe, directory):
     name = recipe.get_url()
     with open(directory + '/' + name, 'w') as f:
-        f.write('<style>table, th, td { padding-left: 5px; padding-right: 5px; border: 1px solid black; border-collapse: collapse; } </style>')
-        f.write(f'<h1>{recipe.title}</h1>')
-        f.write('<table>')
-        f.write(f'<td colspan="{1+recipe.depth}", style="text-align: center;"><b>Servings:</b> {recipe.servings}</td>')
+        f.write('<style>table, th, td { padding-left: 5px; padding-right: 5px; border: 1px solid black; border-collapse: collapse; } </style>\n')
+        f.write(f'<title>{recipe.title}</title>\n')
+        f.write(f'<h1>{recipe.title}</h1>\n')
+        f.write('<table>\n')
+        f.write(f'<td colspan="{1+recipe.depth}", style="text-align: center;"><b>Servings:</b> {recipe.servings}</td>\n')
         for n in recipe.get_leaf_nodes():
             if len(n.inst) > 0:
-                f.write('<tr>')
+                f.write('<tr>\n')
                 if n.parent is None:
-                    f.write(f'<td colspan="{1+recipe.depth}", style="text-align: center;"><b>{n.get_html_inst()}</b></td>')
+                    f.write(f'<td colspan="{1+recipe.depth}", style="text-align: center;"><b>{n.get_html_inst()}</b></td>\n')
                 else:
-                    f.write(f'<td colspan="{1+recipe.depth-n.depth}">{n.get_html_inst()}</td>')
+                    f.write(f'<td colspan="{1+recipe.depth-n.depth}">{n.get_html_inst()}</td>\n')
                     while n.parent is not None and n.parent.printed is False:
                         n = n.parent
-                        f.write(f'<td rowspan="{n.count()}">{n.get_html_inst().replace(',','<br>')}</td>')
+                        f.write(f'<td rowspan="{n.count()}">{n.get_html_inst().replace(',','<br>')}</td>\n')
                         n.printed = True
-                f.write('</tr>')
-        f.write('</table>')
+                f.write('</tr>\n')
+        f.write('</table>\n')
 
         for k, v in recipe.data.items():
-            f.write(f'<h4>{k.title()}:</h4>{v}<br>')
+            f.write(f'<h4>{k.title()}:</h4>{v}<br>\n')
             
-        f.write('<br><b>Tags:</b>')
+        f.write('<br><b>Tags:</b>\n')
         for tag in recipe.tags.split(','):
             tag = tag.strip()
-            f.write(f' <a href="../index.html#{tag.lower()}">{tag}</a>')
+            f.write(f' <a href="../index.html#{tag.lower()}">{tag}</a>\n')
             
         if len(recipe.used_in) > 0:
-            f.write('<br><b>Used in: </b>')
+            f.write('<br><br><b>Used in:</b>\n')
             text = ''
             for ref in recipe.used_in:
-                text += (format_link(ref) + ',')
+                text += (' ' + format_link(ref) + ',')
             f.write(text[0:-1])
                 
 recipes = []
@@ -189,9 +190,9 @@ for recipe in recipes:
 
 with open( './index.html', 'w') as f:
     for k in sorted(tags.keys()):
-        f.write(f'<h3 id="{k.lower()}">{k}</h3>')
-        f.write('<ul>')
+        f.write(f'<h3 id="{k.lower()}">{k}</h3>\n')
+        f.write('<ul>\n')
         for file in tags[k]:
-            f.write(f'<li><a href="./outputs/{file.lower()}">{file.split('.')[0].title()}</a></li>')
-        f.write('</ul>')
+            f.write(f'<li><a href="./outputs/{file.lower()}">{file.split('.')[0].title()}</a></li>\n')
+        f.write('</ul>\n')
             

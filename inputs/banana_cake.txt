@@ -1,0 +1,25 @@
+servings = '9x13'
+tags = 'Cake'
+
+recipe = """
+Cake
+Put in freezer, for 45 minutes
+	Bake at 275F, for 1 hour
+		Mix
+			Alternate mix wet and dry
+				Mix
+					Add one at a time
+						Mix
+							3/4 cup butter
+							2 1/8 cup sugar
+						3 eggs
+					2 teaspoon vanilla
+				Mix
+					3 cup flour
+					1.5 teaspoon baking soda
+					1/4 teaspoon salt
+				1.5 cup buttermilk
+			1/5 cup banana, mashed (4-5ish)
+Frosting
+1 x *Cream Cheese Frosting 2*
+"""

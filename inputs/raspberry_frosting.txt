@@ -1,0 +1,14 @@
+servings = ''
+tags = 'Frosting'
+
+recipe = """
+Mix
+	Add
+		Mix
+			3/4 cup butter, soft
+			3.5 cup powder sugar
+		3 tablespoon heavy cream
+		2 teaspoon vanilla
+		1/4 teaspoon salt
+	1/2 cup raspberry thick jam
+"""
