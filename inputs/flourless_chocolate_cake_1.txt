@@ -1,0 +1,21 @@
+servings = '8 inch round'
+tags = 'Cake, Gluten Free'
+
+recipe = """
+Bake at 375F for 25 minutes
+	Mix till combined
+		Mix till smooth
+			Add one egg at a time
+				Mix
+					Melt
+						1 cup semisweet chocolate chips
+						1 stick butter
+					3/4 cup sugar
+					1/4 teaspoon salt
+					2 teaspoon espresso powder
+					1 teaspoon vanilla
+				3 eggs
+		1/2 cup cocoa powder
+Frosting
+1 x *Chocolate Ganache*
+"""

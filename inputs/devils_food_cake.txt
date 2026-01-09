@@ -1,0 +1,25 @@
+servings = '2x 9 inch round'
+tags = 'Cake'
+
+recipe = """
+Bake at 350F for 30-35 minutes
+	Add
+		Add 1/2 cup of dry at a time
+			Mix one at a time
+				Mix
+					Mix
+						3/4 cup butter, soft
+						2 cup + 2 tablespoon sugar
+					3/4 cup cocoa powder
+					2 teaspoon vanilla
+				3 eggs
+			Mix
+				2 cup flour
+				1/2 tablespoon baking soda
+				3/4 teaspoon baking powder
+				3/4 teaspoon salt
+		Heat until just boiling
+			Mix
+				1 1/4 cup water
+				1/4 cup milk
+"""

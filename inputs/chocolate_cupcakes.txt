@@ -1,0 +1,24 @@
+servings = '1 dozen'
+tags = 'Cupcakes'
+
+recipe = """
+Bake at 350F, for 25 minutes
+	Mix
+		Mix
+			Add, Mix till smooth
+				Mix, Melt over stove
+					4 tablespoon butter
+					1/4 cup vegtable oil
+					1/2 cup water
+				Mix
+					1 cup flour
+					1 cup sugar
+					1/4 cup + 2 tablespoon cocoa powder
+					3/4 teaspoon baking soda
+					1/8 teaspoon salt
+			1 egg
+		1/4 cup buttermilk
+		1 teaspoon vanilla
+"""
+
+Mini = 'Mini cupcakes bake for 10 minutes, makes 4 dozen'

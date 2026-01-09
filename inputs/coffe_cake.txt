@@ -1,0 +1,25 @@
+servings = '9x13'
+tags = 'Cake'
+
+recipe = """
+Bake at 350F, for 25-30 minutes, with foil on top, bake 10 more minutes with no foil
+	Melt butter on top
+		Rest of sugar
+			Rest of batter
+				Half sugar on top
+					Half batter in 9x13
+						Add
+							Mix
+								1 cup vegtable oil
+								2 eggs
+								1 teaspoon vanilla
+								1 cup milk
+							1 cup sugar
+							3 cup flour
+							1 tablespoon baking powder
+							1/2 teaspoon salt
+					Mix
+						1/5 cup brown sugar
+						2 teaspoon cinnamon
+		1/2 cup butter
+"""

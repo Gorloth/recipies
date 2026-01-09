@@ -1,0 +1,33 @@
+servings = '1 Bunt Cake'
+tags = 'Cake'
+
+recipe = """
+Bake at 350F, for 55-65 minutes, cool for 2 hours in pan
+	Add rest of batter
+		Glob in cream cheese mixture
+			Place 2/3 in pan
+				Whisk together
+					Combine
+						Mix
+							1 3/4 cup flour
+							3/4 cup cocoa powder
+							1 3/4 cup sugar
+							2 teaspoon baking soda
+							1 teaspoon baking powder
+							1 teaspoon salt
+							2 teaspoon espresso powder
+						Mix
+							1/2 cup vegtable oil
+							2 eggs
+							3/4 cup sour cream
+							1/2 cup buttermilk
+							2 teaspoon vanilla
+					1/3 cup boiling water
+			Mix in
+				Beat on high
+					12 oz cream cheese
+				1 eggs
+				1/4 cup sugar
+				1/2 teaspoon vanilla
+				1 bag mini chocolate chips
+"""

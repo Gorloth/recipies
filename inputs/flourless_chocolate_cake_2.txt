@@ -1,0 +1,20 @@
+servings = '8 inch round'
+tags = 'Cake, Gluten Free'
+
+recipe = """
+Bake at 350F for 30-35 minutes
+	Mix
+		Add one at a time
+			Whisk together
+				Mix
+					Melt
+						1 cup dark chocolate chips
+					2/3 cup sugar
+				1/2 cup oil
+				1 tablespoon instant coffee
+				1 teaspoon vanilla
+				1/2 teaspoon cinnamon
+				1/4 teaspoon salt
+			4 eggs
+		1/2 cocoa powder
+"""
