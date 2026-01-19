@@ -1,5 +1,6 @@
 servings = '2 9inch rounds'
 tags = 'Cake, Condiments'
+flavors = 'Spice'
 
 recipe = """
 Cake

@@ -1,5 +1,6 @@
 servings = ''
 tags = 'Sauce'
+flavors = 'Chocolate'
 
 recipe = """
 Mix

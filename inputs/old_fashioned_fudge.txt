@@ -1,5 +1,6 @@
 servings = '8x8'
 tags = 'Fudge'
+flavors = 'Chocolate'
 
 recipe = """
 Pour in pan

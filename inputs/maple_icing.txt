@@ -1,5 +1,6 @@
 servings = ''
 tags = 'Icing'
+flavors = 'Maple'
 
 recipe = """
 Mix

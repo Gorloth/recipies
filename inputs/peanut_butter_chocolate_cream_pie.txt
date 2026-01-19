@@ -1,0 +1,29 @@
+servings = '1 9inch pie'
+tags = 'Pie'
+flavors = 'Chocolate, Peanut Butter'
+
+recipe = """
+Chill 4 hours
+	Pipe rest of peanut butter, mixture around edges
+		Layer Chocolate mixture ontop
+			Place half peanut butter, mixture in crust
+				Mix
+					Combine
+						Mix till smooth
+							Pour over chocolate, let sit till melted
+								Heat till almost boiling
+									1/4 cup heavy cream
+								3/4 cup milk chocolate chips
+						Beat smooth
+							4oz cream cheese
+					1/2 cup powdered sugar
+					6oz cool whip
+				Mix
+					Combine
+						Mix smooth
+							8oz cream cheese
+						1 cup peanut butter
+						1 cup powdered sugar
+					6oz cool whip
+				1 x *Graham Cracker Crust*
+"""

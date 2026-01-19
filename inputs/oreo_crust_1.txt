@@ -1,0 +1,10 @@
+servings = '9inch round'
+tags = 'Crust'
+flavors = 'Chocolate'
+
+recipe = """
+Press into pan
+	Mix
+		12 oreos
+		3 tablespoon butter, melted
+"""

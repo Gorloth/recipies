@@ -1,5 +1,6 @@
 servings = '6 large rolls'
-tags = 'Cinnamon'
+tags = 'Misc'
+flavors = 'Cinnamon'
 
 recipe = """
 Bake at 350F for 20 minutes

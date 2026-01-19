@@ -1,12 +1,13 @@
 servings = '1 pie'
 tags = 'Pie'
+flavors = 'Banana'
 
 recipe = """
 Add on top
 	Add rest of banana on top
 		Add pudding
 			1 layer of bananas in crust
-				1 x *Butter Pie Crust*, baked
+				1/2 x *Butter Pie Crust*, baked
 				3-4 bananas, sliced
 			1 x *Pudding*
 	1 x *Whipped Cream*

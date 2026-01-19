@@ -1,5 +1,6 @@
 servings = ''
 tags = 'Frosting'
+flavors = 'Berry'
 
 recipe = """
 Mix

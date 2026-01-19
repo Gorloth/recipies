@@ -1,0 +1,18 @@
+servings = '1 9inch pie'
+tags = 'Pie'
+flavors = 'Fruit'
+
+recipe = """
+Bake at 350F, for 35 minutes
+	Bake at 425F, for 10 minutes
+		Add
+			lattice crust
+				Pour in mixture 
+					Place peaches in crust
+						2 cup peaches
+					Mix
+						1 cup sugar
+						4-5 tablespoon flour
+						1 cup sour cream
+			cinnamon/sugar mix
+"""

@@ -1,5 +1,6 @@
 servings = '8 inch round'
 tags = 'Frosting'
+flavors = 'Chocolate'
 
 recipe = """
 Mix till smooth

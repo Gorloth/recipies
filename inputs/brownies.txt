@@ -1,5 +1,6 @@
 servings = '9x13'
 tags = 'Brownies'
+flavors = 'Chocolate'
 
 recipe = """
 Bake at 350F for 45 minutes

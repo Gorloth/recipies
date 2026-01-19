@@ -1,0 +1,23 @@
+servings = '9x13'
+tags = 'Bars'
+flavors = 'Citrus'
+
+recipe = """
+Bake at 350F, for 35-45 minutes, till not jiggly in center
+	Add
+		Bake at 350F, for 15 mintues
+			Chill 15 minutes
+				Place in greased 9x13 pan
+					Mix
+						2 stick butter, soft
+						1/2 cup sugar
+						2 cup flour
+						1/8 teaspoon salt
+		Mix
+			6 eggs
+			3 cups sugar
+			2 tablespoon grapefruit zest
+			3/4 cup grapefruit juice
+			1/4 cup lemon juice
+			1 cup flour 
+"""

@@ -1,0 +1,12 @@
+servings = '9inch springform'
+tags = 'Crust'
+flavors = 'Chocolate'
+
+recipe = """
+Chill 30 minutes
+	Press into pan
+		Mix
+			30 oreos
+			3 tablespoon sugar
+			3 tablespoon butter, melted
+"""

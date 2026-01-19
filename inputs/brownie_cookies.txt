@@ -1,5 +1,6 @@
 servings = '3-4 dozen'
 tags = 'Cookies, Brownies'
+flavors = 'Chocolate'
 
 recipe = """
 Bake at 350F, for 8-10 minutes

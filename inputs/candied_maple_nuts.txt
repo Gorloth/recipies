@@ -1,5 +1,6 @@
 servings = ''
 tags = 'Candy'
+flavors = 'Maple'
 
 recipe = """
 Reduce to low simmer, cook from thin to thick to crystalized

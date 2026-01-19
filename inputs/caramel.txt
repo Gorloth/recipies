@@ -1,5 +1,6 @@
 servings = ''
 tags = 'Candy'
+flavors = 'Caramel'
 
 recipe = """
 Mix, Cook to 245-250F

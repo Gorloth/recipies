@@ -1,0 +1,14 @@
+servings = '9inch round'
+tags = 'Cheesecake'
+flavors = 'Chocolate'
+
+recipe = """
+Let chill
+	Pour in crust
+		Mix
+			Mix
+				2/3 cup Nutella
+				8 oz cream cheese, room temp
+			8 oz cool whip
+		1 x *Oreo Crust 1*
+"""

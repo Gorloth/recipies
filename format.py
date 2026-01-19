@@ -3,10 +3,11 @@ import os
 import re
 
 class Recipe:
-    def __init__(self, title='', servings='', tags=''):
+    def __init__(self, title='', servings='', tags='', flavor=''):
         self.title=title
         self.servings=servings
         self.tags=tags.title()
+        self.flavors = flavor
         
         self._current_node=None
         self.nodes=[]
@@ -120,7 +121,11 @@ def format_link(link):
 def load(name):
     with open(name, 'rb') as f:
         data = tomllib.load(f)
-    recipe = Recipe(title = os.path.basename(name).split('.')[0].replace('_',' ').title(), servings = data.pop('servings'), tags = data.pop('tags'))
+    if 'flavors' in data:
+        flavor = data.pop('flavors')
+    else:
+        flavor = None
+    recipe = Recipe(title = os.path.basename(name).split('.')[0].replace('_',' ').title(), servings = data.pop('servings'), tags = data.pop('tags'), flavor = flavor)
     for line in data.pop('recipe').split('\n'):
         indent = len(line) - len(line.lstrip())
         recipe.add_step(line.strip(), indent)
@@ -157,6 +162,12 @@ def output_html(recipe, directory):
             tag = tag.strip()
             f.write(f' <a href="../index.html#{tag.lower()}">{tag}</a>\n')
             
+        if recipe.flavors is not None:
+            f.write('<br><b>Flavors:</b>\n')
+            for flavor in recipe.flavors.split(','):
+                flavor = flavor.strip()
+                f.write(f' <a href="../flavor.html#{flavor.lower()}">{flavor.title()}</a>\n')
+            
         if len(recipe.used_in) > 0:
             f.write('<br><br><b>Used in:</b>\n')
             text = ''
@@ -171,6 +182,7 @@ for file in os.listdir('./inputs'):
     recipes.append(recipe)
     
 tags = {}
+flavors = {}
 for recipe in recipes:
     for tag in recipe.tags.split(','):
         tag = tag.strip()
@@ -178,6 +190,15 @@ for recipe in recipes:
             tags[tag].append(recipe.get_url())
         else:
             tags[tag] = [recipe.get_url()]
+            
+    if recipe.flavors is not None:
+        for flavor in recipe.flavors.split(','):
+            flavor = flavor.strip()
+            if flavor in flavors:
+                flavors[flavor].append(recipe.get_url())
+            else:
+                flavors[flavor] = [recipe.get_url()]
+    
     
     for ref in recipe.get_refs():
         for other in recipes:
@@ -193,6 +214,14 @@ with open( './index.html', 'w') as f:
         f.write(f'<h3 id="{k.lower()}">{k}</h3>\n')
         f.write('<ul>\n')
         for file in tags[k]:
+            f.write(f'<li><a href="./outputs/{file.lower()}">{file.split('.')[0].title()}</a></li>\n')
+        f.write('</ul>\n')
+            
+with open( './flavor.html', 'w') as f:
+    for k in sorted(flavors.keys()):
+        f.write(f'<h3 id="{k.lower()}">{k}</h3>\n')
+        f.write('<ul>\n')
+        for file in flavors[k]:
             f.write(f'<li><a href="./outputs/{file.lower()}">{file.split('.')[0].title()}</a></li>\n')
         f.write('</ul>\n')
             

@@ -1,5 +1,6 @@
 servings = '9x13'
-tags = 'Cinnamon, Brownies'
+tags = 'Brownies'
+flavors = 'Cinnamon'
 
 recipe = """
 Bake at 350F, for 25-30 minutes

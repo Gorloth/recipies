@@ -1,0 +1,22 @@
+servings = '1 9inch pie'
+tags = 'Pie'
+flavors = 'Pumpkin'
+
+recipe = """
+Bake at 375F, for 50-60 minutes, cover crust in foil, after ~25 minutes
+	Add
+		Mix
+			15oz pumpkin
+			3 eggs
+			1 1/4 cup brown sugar
+		Mix
+			1 tablespoon corn starch
+			1/2 teaspoon salt
+			1/2 tablespoon cinnamon
+			1/2 teaspoon ginger
+			1/4 teaspoon nutmeg
+			1/8 teaspoon cloves
+			1/8 teaspoon black pepper
+		1 cup heavy cream
+		1/4 cup milk
+"""

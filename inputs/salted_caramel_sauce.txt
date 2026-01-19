@@ -1,5 +1,6 @@
 servings = '~1.5 cups'
 tags = 'Sauce'
+flavors = 'Caramel'
 
 recipe = """
 Add

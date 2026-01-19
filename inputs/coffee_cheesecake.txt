@@ -1,0 +1,15 @@
+servings = '9inch springform'
+tags = 'Cheesecake'
+flavors = 'Coffee'
+
+recipe = """
+Bake at 350F, for 35-40 minutes
+	1 x *Graham Cracker Crust*
+	Add
+		Add
+			Mix
+				24 oz cream cheese
+				3/4 cup sugar
+			3 eggs
+		1/2 cup strong coffee
+"""

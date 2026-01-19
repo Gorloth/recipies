@@ -1,0 +1,30 @@
+servings = '9-10inch springform'
+tags = 'Cheesecake'
+flavors = 'Maple, Pumpkin'
+
+recipe = """
+Chill minimum of 4 hours
+	Bake at 325F, for 75 minutes
+		Pour in crust
+			Mix, press in pan
+				1 1/4 cup graham cracker cumbs
+				1/4 cup sugar
+				1/4 cup butter, melted
+			Mix
+				Mix
+					Beat till fluffy
+						24 oz cream cheese
+				14 oz sweetened condenced milk
+			15 oz pumpkin
+			3 egg
+			1/4 cup maple syrup
+			1/2 tablespoon cinnamon
+			1 teaspoon nutmeg
+			1/2 teaspoon salt
+Glaze
+Mix
+	Boil 15-20 minutes, till thick
+		1 cup heavy whipping cream
+		3/4 cup maple syrup
+	1/2 cup chopped pecans
+"""

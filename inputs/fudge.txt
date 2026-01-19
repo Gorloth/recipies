@@ -1,5 +1,6 @@
 servings = '9x13'
 tags = 'Fudge'
+flavors = 'Chocolate'
 
 recipe = """
 Add

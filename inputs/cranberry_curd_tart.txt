@@ -1,0 +1,19 @@
+servings = '1 9inch pie'
+tags = 'Pie'
+flavors = 'Cranberry'
+
+recipe = """
+Bake at 350F for 10 minutes, in pre-baked pie crust
+	Cool to room temp
+		Temper eggs
+			Add
+				Blend
+					Heat on medium heat, till soft, ~10 minutes
+						12oz cranberry
+						1 cup sugar
+						zest of one orange
+						1/2 cup orange juice
+				1 stick butter
+			2 eggs
+			2 egg yolks
+"""

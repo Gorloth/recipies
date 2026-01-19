@@ -1,5 +1,6 @@
 servings = ''
 tags = 'Candy'
+flavors = 'Chocolate, Peanut Butter'
 
 recipe = """
 Coat

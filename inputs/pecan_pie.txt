@@ -1,0 +1,19 @@
+servings = '1 9inch pie'
+tags = 'Pie'
+
+recipe = """
+Bake at 350F, for 50-55 minutes, till top is lightly browned
+	Pour mixture over
+		Place in crust
+			Chop coarsely
+				2.5 cup pecan
+		Mix
+			Melt
+				4 tablespoon butter
+			3 egg
+			1 cup dark corn syrup
+			1/2 cup brown sugar
+			1/2 tablespoon vanilla
+			1/2 teaspoon salt
+			1/2 teaspoon cinnamon
+"""

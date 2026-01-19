@@ -1,0 +1,13 @@
+servings = '1 9inch pie'
+tags = 'Pie'
+flavors = 'Citrus'
+
+recipe = """
+Bake at 350F, for 15-20 minutes
+	Mix
+		6 eggs
+		2 cup sugar
+		2 tablespoon lemon zest
+		1/2 cup lemon juice
+		6 tablespoon flour
+"""

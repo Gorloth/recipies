@@ -1,0 +1,18 @@
+servings = '9x13'
+tags = 'Bars'
+flavors = 'Chocolate, Peanut Butter'
+
+
+recipe = """
+Cover and let set
+	Spread chocolate on top
+		Place in 9x13 pan
+			Mix into dough
+				1/2 cup butter, melted
+				2.5 cup powdered sugar
+				1 cup peanut butter
+				1 teaspoon vanilla
+		Melt
+			2 teaspoon shortening
+			1 bag semisweet chocolate chips
+"""

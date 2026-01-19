@@ -1,5 +1,6 @@
 servings = ''
 tags = 'Component'
+flavors = 'Berry'
 
 recipe = """
 Stir till melted/combined

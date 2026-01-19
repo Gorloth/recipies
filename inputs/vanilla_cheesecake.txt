@@ -1,0 +1,18 @@
+servings = '9inch springform'
+tags = 'Cheesecake'
+
+recipe = """
+Turn off oven, let sit 30 minutes, with door slightly open
+	Bake at 300F, for 70 minutes
+		1 x *Graham Cracker Crust*
+		Add
+			Add one at a time
+				Mix low, for 3 minutes
+					Mix low, for 3 minutes
+						16 oz cream cheese
+						3/4 cup sugar
+					3/4 cup sour cream
+				3 egg
+			2 teaspoon vanilla
+			1 teaspoon lemon juice
+"""

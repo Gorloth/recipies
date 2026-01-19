@@ -1,5 +1,6 @@
 servings = '9x13'
 tags = 'Cake'
+flavors = 'Coconut'
 
 recipe = """
 Poke small holes in cake, pour glaze over top

@@ -1,5 +1,6 @@
 servings = '1 Bunt Cake'
 tags = 'Cake'
+flavors = 'Chocolate'
 
 recipe = """
 Bake at 350F, for 55-65 minutes, cool for 2 hours in pan

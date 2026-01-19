@@ -1,5 +1,6 @@
 servings = '8x8'
 tags = 'Fudge'
+flavors = 'Rootbeer'
 
 recipe = """
 Place in pan, glob 1 cup reserve on top, swirl with knife

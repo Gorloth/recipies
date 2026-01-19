@@ -1,5 +1,6 @@
 servings = '1 Batch'
 tags = 'Candy'
+flavors = 'Chocolate'
 
 recipe = """
 Drop spoonfulls on waxed paper

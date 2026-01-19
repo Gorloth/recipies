@@ -1,5 +1,6 @@
 servings = ''
 tags = 'Component'
+flavors = 'Chocolate'
 
 recipe = """
 Mix to stiff peaks

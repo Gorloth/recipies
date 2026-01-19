@@ -1,0 +1,19 @@
+servings = '1 9inch pie'
+tags = 'Pie'
+flavors = 'Berry'
+
+recipe = """
+Bake at 375F, for 25 minutes with foil, 20-35 more, till top is golden and bubbly
+	Place in crust, add latice top
+		Let sit for 15 minutes
+			Stir gentrly
+				Add
+					Mix
+						3/4 cup sugar
+						3 tablespoon quick cooking tapioca
+					2 cups sliced rhubarb
+					2 cups berries
+					1 tablespoon lemon juice
+					1/2 teaspoon vanilla
+					dash nutmeg
+"""

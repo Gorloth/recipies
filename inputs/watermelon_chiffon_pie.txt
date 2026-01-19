@@ -1,0 +1,25 @@
+servings = '1 9inch pie'
+tags = 'Pie'
+flavors = 'Fruit'
+
+recipe = """
+Pour in crust
+	Fold in
+		Fold in
+			Chill, till firmish
+				Add rest of watermelon
+					Remove heat
+						Boil
+							Add 1/2 cup to gelatin, let sit 2 minutes
+								Strain
+									Blend
+										3 cup watermelon
+								1 envelope of gelatin
+					juice of 1 lime
+			Beat to stiff peaks
+				1/2 cup heavy whipping cream
+				3/4 cup powdered sugar
+		Beat to stiff peaks
+			1 egg white
+	1 x *Graham Cracker Crust*
+"""

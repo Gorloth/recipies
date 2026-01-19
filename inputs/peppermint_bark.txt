@@ -1,5 +1,6 @@
 servings = '8x8 pan'
 tags = 'Candy'
+flavors = 'Mint'
 
 recipe = """
 Add, Chill 1 hour

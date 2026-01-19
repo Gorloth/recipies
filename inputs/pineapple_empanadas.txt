@@ -1,5 +1,6 @@
 servings = '2 dozen'
 tags = 'Misc'
+flavors = 'Fruit'
 
 recipe = """
 Bake 375F, for 12 minutes, or till brown

@@ -1,5 +1,6 @@
 servings = '1 dozen'
 tags = 'Cupcakes'
+flavors = 'Chocolate'
 
 recipe = """
 Bake at 350F, for 25 minutes

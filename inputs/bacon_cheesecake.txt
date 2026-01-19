@@ -1,0 +1,26 @@
+servings = '9inch round'
+tags = 'Cheesecake'
+
+recipe = """
+Add topping back for 5 minutes
+	Bake at 350F, for ~27 minutes
+		Add
+			Add
+				Add
+					Mix
+						2 pounds cream cheese
+						1/2 cup sugar
+						1/2 cup sour cream
+					4 eggs
+					2 egg yolks
+				1/2 cup maple syrup
+				1 teaspooon maple extract
+			8 ounces bacon, cooked, chopped
+Topping
+Mix
+	8 oz sour cream
+	1/4 cup sugar
+	1 cup maple srup
+	1 teaspooon vanilla
+	4 teaspooon bacon fat
+"""

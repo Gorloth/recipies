@@ -1,0 +1,20 @@
+servings = '1 9inch pie'
+tags = 'Pie'
+flavors = 'Fruit'
+
+recipe = """
+Bake at 350F, for 45-50 minutes, add foil on edges, after ~25 minutes
+	Pour in pie crust, add top crust
+		Mix
+			Drain
+				Boil 20 minutes, until tender
+					2 cups watermelon rind, peeled
+			Mix
+				1 cup sugar
+				2 teaspoon flour
+				1 teaspoon cinnamon
+				1/4 teaspoon nutmeg
+				1/4 teaspoon cloves
+				1/8 teaspoon salt
+				3 tablespoon apple cider vinegar
+"""

@@ -1,5 +1,6 @@
 servings = '~12-15 cupcakes'
 tags = 'Cupcakes, Cake'
+flavors = 'Citrus'
 
 recipe = """
 Cake

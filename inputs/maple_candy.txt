@@ -1,5 +1,6 @@
 servings = ''
 tags = 'Candy'
+flavors = 'Maple'
 
 recipe = """
 Mix till light tick and creamy (~5 minutes)

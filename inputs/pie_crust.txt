@@ -1,0 +1,12 @@
+servings = '2 9inch pies'
+tags = 'Crust'
+
+recipe = """
+Bake at 425F, for 10 minutes
+	Add one at a time
+		Mix
+			2 cup flour
+			1 teaspoon salt
+			2/3 cup shortening
+		4-5 tablesoons cold water
+"""

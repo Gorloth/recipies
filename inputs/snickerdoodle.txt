@@ -1,5 +1,6 @@
 servings = '4 dozen'
-tags = 'Cookies, Cinnamon'
+tags = 'Cookies'
+flavors = 'Cinnamon'
 
 recipe = """
 Bake at 400F, for 8-10 minutes

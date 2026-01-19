@@ -1,5 +1,6 @@
 servings = 'enough for 96 mini cupcakes'
 tags = 'Frosting'
+flavors = 'Chocolate, Peanut Butter'
 
 recipe = """
 Add gradually

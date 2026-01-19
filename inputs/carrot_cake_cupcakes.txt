@@ -1,5 +1,6 @@
 servings = '~12 cupcakes'
 tags = 'Cupcakes'
+flavors = 'Spice'
 
 recipe = """
 Bake at 350F, for 20 minutes

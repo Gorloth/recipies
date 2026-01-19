@@ -1,0 +1,15 @@
+servings = 'mini cupcake'
+tags = 'Cheesecake, cupcakes'
+
+recipe = """
+Bake at 350F, for 15 minutes
+	Pour on crust
+		Add 1/2 teaspoon crust per mini cupcake
+			Crush
+				12 oz vanilla waffer cookies
+		Mix
+			16 oz cream cheese
+			3/4 cup sugar
+			2 egg
+			1 teaspoon vanilla
+"""

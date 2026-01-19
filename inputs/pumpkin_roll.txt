@@ -1,5 +1,6 @@
 servings = '1 roll'
 tags = 'Misc'
+flavors = 'Pumpkin'
 
 recipe = """
 Cake

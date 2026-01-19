@@ -1,0 +1,20 @@
+servings = '1 9inch pie'
+tags = 'Pie'
+flavors = 'Berry'
+
+recipe = """
+Top with *whipped cream*
+	Pour mixture over berries
+		Remove heat, mix 2 minutes
+			Mix
+				Boil 1 minute
+					Mix
+						Mix
+							3/4 cup sugar
+							3 tablespoon corn starch
+						1.5 cup water
+				4oz jello mix
+		Place berries in crust
+			1 x *Graham Cracker Crust*
+			3 cup berry
+"""

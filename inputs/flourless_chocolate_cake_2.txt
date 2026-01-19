@@ -1,5 +1,6 @@
 servings = '8 inch round'
 tags = 'Cake, Gluten Free'
+flavors = 'Chocolate'
 
 recipe = """
 Bake at 350F for 30-35 minutes

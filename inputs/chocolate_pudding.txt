@@ -1,5 +1,6 @@
 servings = "1 pie's worth"
 tags = 'Component'
+flavors = 'Chocolate'
 
 recipe = """
 Mix
