@@ -1,0 +1,17 @@
+servings = ''
+tags = '!Dessert'
+
+recipe = """
+Bake at 250F, for 1 hour, stir every 15 minutes
+	Mix
+		9 cups chex
+		1 cup mixed uts
+		1 cups pretzels
+		Mix
+			Melt
+				1 stick butter
+			3 tablespoon worcestershire sauce
+			2 teaspoon seasoned salt
+			1 1/8 teaspoon garlic powder
+			3/4 tablespoon onion powder
+"""

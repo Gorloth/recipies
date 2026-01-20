@@ -1,0 +1,12 @@
+servings = '1 can'
+tags = '!Dessert'
+
+recipe = """
+Lightly boil until thickened, ~25-30 minutes
+	Cook over medium high heat, untill berries pop
+		Add 
+			Mix over heat, till disolved
+				1 cup sugar
+				1 cup orange juice
+			12 oz cranberry
+"""

@@ -1,5 +1,6 @@
 servings = '3 dozen'
 tags = 'Cookies'
+flavors = 'Ginger'
 
 recipe = """
 Bake at 375F, for 8-10 minutes
