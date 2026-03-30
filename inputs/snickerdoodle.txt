@@ -18,3 +18,5 @@ Bake at 400F, for 8-10 minutes
 			1 teaspoon baking soda
 			1/4 teaspoon salt
 """
+
+'Variations' = 'Add a tiny bit ginger in the cinnamon/sugar mixture (1/8 teaspoon per 1/4 cup)'
