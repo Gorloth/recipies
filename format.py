@@ -62,6 +62,10 @@ class Recipe:
         refs = []
         for node in nodes:
             refs = refs + node.refs
+            
+        for k, v in recipe.data.items(): 
+            refs = refs + re.findall(r'\*(.*?)\*', v)
+            
         return(refs)
 
 class Node:
@@ -154,7 +158,10 @@ def output_html(recipe, directory):
                 f.write('</tr>\n')
         f.write('</table>\n')
 
-        for k, v in recipe.data.items():
+        for k, v in recipe.data.items(): 
+            refs = re.findall(r'\*(.*?)\*', v)
+            for ref in refs:
+                v = v.replace('*'+ref+'*', format_link(ref))
             f.write(f'<h4>{k.title()}:</h4>{v}<br>\n')
             
         f.write('<br><b>Tags:</b>\n')

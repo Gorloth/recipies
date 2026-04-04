@@ -18,3 +18,4 @@ Add kiss to middle
 
 'Gluten free/vegan' = 'skip egg and flour, may need to add a little extra powdered sugar'
 Tiny = 'Make cookies 1/3 normal size, use chocolate chips instead of kiss, bake 4ish minutes'
+'PB&J thumbprints' = 'Replace chocolate with *Berry Sauce*'
