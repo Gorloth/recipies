@@ -1,4 +1,4 @@
-servings = ''
+servings = '2 dozen'
 tags = 'Cookies'
 
 recipe = """
