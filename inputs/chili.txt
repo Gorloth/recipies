@@ -1,0 +1,18 @@
+servings = '4'
+tags = '!Dessert'
+
+recipe = """
+Cook in crockpot for 6-8 hours on low
+	Mix
+		cook 
+			1 pound ground beef
+			1/2 cup chopped onions
+			1 cup chopped celery
+		28 oz canned tomatoes
+		6 oz tomato paste
+		12 oz kidney beans
+		1 tablespoon chili powder
+		salt and papper to tates
+"""
+
+'vegan' = 'Sub beef for another '

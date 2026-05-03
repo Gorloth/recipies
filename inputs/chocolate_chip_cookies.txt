@@ -1,0 +1,21 @@
+servings = '4-5 dozen'
+tags = 'Cookies'
+flavors = 'Chocolate'
+
+recipe = """
+Bake at 375F, for 9-11 minutes
+	Mix
+		Mix
+			Add, Mix till smooth
+				Mix
+					1 cup butter
+					3/4 cup sugar
+					3/4 cup brown sugar
+				2 eggs
+				2 teaspoon vanilla
+			Mix
+				2 1/4 cup flour
+				1 tablespoon baking soda
+				1/2 tablespoon salt
+		2 cups (1 bag) chocolate chips
+"""
