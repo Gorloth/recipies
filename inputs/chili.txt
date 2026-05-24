@@ -15,4 +15,4 @@ Cook in crockpot for 6-8 hours on low
 		salt and papper to tates
 """
 
-'vegan' = 'Sub beef for another '
+'vegan' = 'Sub beef for another 12oz of kidney beans'

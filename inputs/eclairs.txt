@@ -2,7 +2,7 @@ servings = ''
 tags = 'Misc'
 
 recipe = """
-Shells
+Shells - makes ~15
 Reduce to 325F for 20 minutes
 	Bake at 450F for 15 minutes
 		Pipe 1.5 inch by 4 inch strips
@@ -14,7 +14,7 @@ Reduce to 325F for 20 minutes
 					1 cup flour
 					1/4 teaspoon salt
 				4 eggs
-Filling
+Filling - filling for ~30
 Fold in
 	Add 
 		Whip
@@ -22,7 +22,7 @@ Fold in
 		1/4 cup powder sugar
 		1 teaspoon vanilla
 	1 x *Pudding*
-Chocolate topping
+Chocolate topping - Topping for ~15
 Add 1 tablespoon at a time
 	Add
 		Melt on low
@@ -32,3 +32,7 @@ Add 1 tablespoon at a time
 		1 teaspoon vanilla
 	3 tablespoons hot water
 """
+
+'Maple frosted' = 'replace topping with *Maple Glaze*'
+'Berry' = 'replace semisweet chocolate with white chocolate, when putting on topping drag spoon down the middle to make a trough and fill with *Berry Sauce*'
+'Other flavors' = 'replace semisweet chocolate with white chocolate, mix in extracts for other flavors'
