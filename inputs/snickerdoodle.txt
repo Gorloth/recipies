@@ -20,3 +20,5 @@ Bake at 400F, for 8-10 minutes
 """
 
 'Variations' = 'Add a tiny bit ginger in the cinnamon/sugar mixture (1/8 teaspoon per 1/4 cup)'
+
+'Tiny/frosted' = 'Make tiny cookies (1/3 normal size) and frost with *Cream Cheese Frosting 2*'
