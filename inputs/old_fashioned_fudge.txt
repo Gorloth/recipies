@@ -1,5 +1,5 @@
 servings = '8x8'
-tags = 'Fudge'
+form = 'Fudge'
 flavors = 'Chocolate'
 
 recipe = """

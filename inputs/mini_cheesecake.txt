@@ -1,5 +1,5 @@
 servings = 'mini cupcake'
-tags = 'Cheesecake, cupcakes'
+form = 'Cheesecake, cupcakes'
 
 recipe = """
 Bake at 350F, for 15 minutes

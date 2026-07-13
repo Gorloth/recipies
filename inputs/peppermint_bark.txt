@@ -1,5 +1,5 @@
 servings = '8x8 pan'
-tags = 'Candy'
+form = 'Candy'
 flavors = 'Mint'
 
 recipe = """

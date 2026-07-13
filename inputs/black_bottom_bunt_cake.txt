@@ -1,5 +1,5 @@
 servings = '1 Bunt Cake'
-tags = 'Cake'
+form = 'Cake'
 flavors = 'Chocolate'
 
 recipe = """

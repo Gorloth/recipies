@@ -1,6 +1,6 @@
 servings = '9x13'
 notes = '*Subsitute white chocolate chips + 1 tablespoon of cinnamon'
-tags = 'Fudge'
+form = 'Fudge'
 flavors = 'Cinnamon'
 
 recipe = """

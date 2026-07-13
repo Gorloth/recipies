@@ -1,5 +1,5 @@
 servings = ''
-tags = 'Misc'
+form = 'Misc'
 
 recipe = """
 Shells - makes ~15

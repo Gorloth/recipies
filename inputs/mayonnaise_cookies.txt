@@ -1,5 +1,5 @@
 servings = '3 dozen'
-tags = 'Cookies, Condiments'
+form = 'Cookies, Condiments'
 
 recipe = """
 Bake at 350F, for 12 minutes

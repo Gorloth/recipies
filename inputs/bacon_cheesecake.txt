@@ -1,5 +1,5 @@
 servings = '9inch round'
-tags = 'Cheesecake'
+form = 'Cheesecake'
 
 recipe = """
 Add topping back for 5 minutes

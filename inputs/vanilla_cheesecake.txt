@@ -1,5 +1,5 @@
 servings = '9inch springform'
-tags = 'Cheesecake'
+form = 'Cheesecake'
 
 recipe = """
 Turn off oven, let sit 30 minutes, with door slightly open

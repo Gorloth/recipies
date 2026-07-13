@@ -1,5 +1,5 @@
 servings = '9inch pie'
-tags = 'Crust'
+form = 'Crust'
 
 recipe = """
 Chill 30 minutes

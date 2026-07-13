@@ -1,5 +1,5 @@
 servings = '~12-15 cupcakes'
-tags = 'Cupcakes, Cake'
+form = 'Cupcakes, Cake'
 flavors = 'Citrus'
 
 recipe = """

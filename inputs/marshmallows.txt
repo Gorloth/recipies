@@ -1,5 +1,5 @@
 servings = ''
-tags = 'Component'
+form = 'Component'
 
 recipe = """
 Place on pan to cool/set

@@ -1,5 +1,5 @@
 servings = '~1.5 cups'
-tags = 'Sauce'
+form = 'Sauce'
 flavors = 'Caramel'
 
 recipe = """

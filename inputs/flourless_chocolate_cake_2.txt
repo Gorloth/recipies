@@ -1,5 +1,6 @@
 servings = '8 inch round'
-tags = 'Cake, Gluten Free'
+form = 'Cake'
+flags = 'Gluten Free'
 flavors = 'Chocolate'
 
 recipe = """

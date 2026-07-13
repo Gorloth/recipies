@@ -1,5 +1,5 @@
 servings = '2x 9 inch round'
-tags = 'Cake'
+form = 'Cake'
 flavors = 'Chocolate'
 
 recipe = """

@@ -1,5 +1,5 @@
 servings = '8 Ramekin'
-tags = 'Misc'
+form = 'Misc'
 
 recipe = """
 Bake at 325F, for 45 minutes

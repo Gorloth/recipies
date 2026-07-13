@@ -1,5 +1,5 @@
 servings = '4'
-tags = '!Dessert'
+form = '!Dessert'
 
 recipe = """
 Cook in crockpot for 6-8 hours on low

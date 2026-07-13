@@ -1,5 +1,5 @@
 servings = '4-5 dozen'
-tags = 'Cookies'
+form = 'Cookies'
 flavors = 'Chocolate'
 
 recipe = """

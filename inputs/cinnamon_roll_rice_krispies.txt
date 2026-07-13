@@ -1,5 +1,5 @@
 servings = '9x13'
-tags = 'Krispies'
+form = 'Krispies'
 flavors = 'Cinnamon'
 
 recipe = """

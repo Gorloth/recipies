@@ -1,5 +1,5 @@
 servings = '2 9inch pies'
-tags = 'Crust'
+form = 'Crust'
 
 recipe = """
 Bake at 425F, for 10 minutes

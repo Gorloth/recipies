@@ -1,5 +1,5 @@
 servings = "1 pie's worth"
-tags = 'Component'
+form = 'Component'
 
 recipe = """
 Mix, cover 30 minutes

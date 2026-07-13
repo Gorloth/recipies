@@ -1,5 +1,5 @@
 servings = ''
-tags = 'Cookies'
+form = 'Cookies'
 
 recipe = """
 Turn oven off, let cool in oven 60 minutes

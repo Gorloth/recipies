@@ -1,5 +1,5 @@
 servings = '1 9inch pie'
-tags = 'Pie'
+form = 'Pie'
 
 recipe = """
 Bake at 350F, for 50-55 minutes, till top is lightly browned

@@ -1,5 +1,5 @@
 servings = '9-10inch springform'
-tags = 'Cheesecake'
+form = 'Cheesecake'
 flavors = 'Maple, Pumpkin'
 
 recipe = """

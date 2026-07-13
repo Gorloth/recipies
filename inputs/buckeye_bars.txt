@@ -1,5 +1,5 @@
 servings = '9x13'
-tags = 'Bars'
+form = 'Bars'
 flavors = 'Chocolate, Peanut Butter'
 
 

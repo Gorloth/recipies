@@ -1,5 +1,5 @@
 servings = '6 large rolls'
-tags = 'Misc'
+form = 'Misc'
 flavors = 'Cinnamon'
 
 recipe = """

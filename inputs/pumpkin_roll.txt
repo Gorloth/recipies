@@ -1,5 +1,5 @@
 servings = '1 roll'
-tags = 'Misc'
+form = 'Misc'
 flavors = 'Pumpkin'
 
 recipe = """

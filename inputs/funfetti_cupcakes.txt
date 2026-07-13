@@ -1,5 +1,5 @@
 servings = '~15 cupcakes'
-tags = 'Cupcakes'
+form = 'Cupcakes'
 
 recipe = """
 Bake at 350F for 15ish minutes

@@ -1,5 +1,5 @@
 servings = '8x8'
-tags = 'Fudge'
+form = 'Fudge'
 
 recipe = """
 Pour in pan, dust nutmeg on top

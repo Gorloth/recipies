@@ -1,5 +1,5 @@
 servings = ''
-tags = '!Dessert'
+form = '!Dessert'
 
 recipe = """
 Bake at 250F, for 1 hour, stir every 15 minutes

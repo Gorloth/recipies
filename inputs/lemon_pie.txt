@@ -1,5 +1,5 @@
 servings = '1 9inch pie'
-tags = 'Pie'
+form = 'Pie'
 flavors = 'Citrus'
 
 recipe = """

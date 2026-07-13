@@ -1,5 +1,5 @@
 servings = '1 can'
-tags = '!Dessert'
+form = '!Dessert'
 
 recipe = """
 Lightly boil until thickened, ~25-30 minutes

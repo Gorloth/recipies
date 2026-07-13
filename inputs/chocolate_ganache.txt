@@ -1,5 +1,5 @@
 servings = '8 inch round'
-tags = 'Frosting'
+form = 'Frosting'
 flavors = 'Chocolate'
 
 recipe = """

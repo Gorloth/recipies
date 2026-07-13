@@ -1,5 +1,5 @@
 servings = '9x13'
-tags = 'Brownies'
+form = 'Brownies'
 flavors = 'Chocolate'
 
 recipe = """

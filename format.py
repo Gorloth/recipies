@@ -3,11 +3,12 @@ import os
 import re
 
 class Recipe:
-    def __init__(self, title='', servings='', tags='', flavor=''):
+    def __init__(self, title='', servings='', form='', flavor='', flag=''):
         self.title=title
         self.servings=servings
-        self.tags=tags.title()
+        self.form=form.title()
         self.flavors = flavor
+        self.flags = flag
         
         self._current_node=None
         self.nodes=[]
@@ -129,7 +130,13 @@ def load(name):
         flavor = data.pop('flavors')
     else:
         flavor = None
-    recipe = Recipe(title = os.path.basename(name).split('.')[0].replace('_',' ').title(), servings = data.pop('servings'), tags = data.pop('tags'), flavor = flavor)
+        
+    if 'flags' in data:
+        flag = data.pop('flags')
+    else:
+        flag = None
+        
+    recipe = Recipe(title = os.path.basename(name).split('.')[0].replace('_',' ').title(), servings = data.pop('servings'), form = data.pop('form'), flavor = flavor, flag=flag)
     for line in data.pop('recipe').split('\n'):
         indent = len(line) - len(line.lstrip())
         recipe.add_step(line.strip(), indent)
@@ -164,17 +171,23 @@ def output_html(recipe, directory):
                 v = v.replace('*'+ref+'*', format_link(ref))
             f.write(f'<h4>{k.title()}:</h4>{v}<br>\n')
             
-        f.write('<br><b>Tags:</b>\n')
-        for tag in recipe.tags.split(','):
-            tag = tag.strip()
-            f.write(f' <a href="../index.html#{tag.lower()}">{tag}</a>\n')
+        f.write('<br><b>Form:</b>\n')
+        for x in recipe.form.split(','):
+            x = x.strip()
+            f.write(f' <a href="../index.html#{x.lower()}">{x}</a>\n')
             
         if recipe.flavors is not None:
             f.write('<br><b>Flavors:</b>\n')
             for flavor in recipe.flavors.split(','):
                 flavor = flavor.strip()
                 f.write(f' <a href="../flavor.html#{flavor.lower()}">{flavor.title()}</a>\n')
-            
+        
+        if recipe.flags is not None:
+            f.write('<br><b>Flags:</b>\n')
+            for flag in recipe.flags.split(','):
+                flag = flag.strip()
+                f.write(f' <a href="../flags.html#{flag.lower()}">{flag.title()}</a>\n')
+        
         if len(recipe.used_in) > 0:
             f.write('<br><br><b>Used in:</b>\n')
             text = ''
@@ -188,15 +201,16 @@ for file in os.listdir('./inputs'):
     recipe = load('./inputs/'+file)
     recipes.append(recipe)
     
-tags = {}
+form = {}
 flavors = {}
+flags = {}
 for recipe in recipes:
-    for tag in recipe.tags.split(','):
-        tag = tag.strip()
-        if tag in tags:
-            tags[tag].append(recipe.get_url())
+    for f in recipe.form.split(','):
+        f = f.strip()
+        if f in form:
+            form[f].append(recipe.get_url())
         else:
-            tags[tag] = [recipe.get_url()]
+            form[f] = [recipe.get_url()]
             
     if recipe.flavors is not None:
         for flavor in recipe.flavors.split(','):
@@ -206,21 +220,27 @@ for recipe in recipes:
             else:
                 flavors[flavor] = [recipe.get_url()]
     
+    if recipe.flags is not None:
+        for flag in recipe.flags.split(','):
+            flag = flag.strip()
+            if flag in flags:
+                flags[flag].append(recipe.get_url())
+            else:
+                flags[flag] = [recipe.get_url()]
     
     for ref in recipe.get_refs():
         for other in recipes:
             if other.title == ref:
                 other.used_in.append(recipe.title)
-        
 
 for recipe in recipes:
     output_html(recipe, './outputs')
 
 with open( './index.html', 'w') as f:
-    for k in sorted(tags.keys()):
+    for k in sorted(form.keys()):
         f.write(f'<h3 id="{k.lower()}">{k}</h3>\n')
         f.write('<ul>\n')
-        for file in tags[k]:
+        for file in form[k]:
             f.write(f'<li><a href="./outputs/{file.lower()}">{file.split('.')[0].title()}</a></li>\n')
         f.write('</ul>\n')
             
@@ -232,3 +252,10 @@ with open( './flavor.html', 'w') as f:
             f.write(f'<li><a href="./outputs/{file.lower()}">{file.split('.')[0].title()}</a></li>\n')
         f.write('</ul>\n')
             
+with open( './flags.html', 'w') as f:
+    for k in sorted(flags.keys()):
+        f.write(f'<h3 id="{k.lower()}">{k}</h3>\n')
+        f.write('<ul>\n')
+        for file in flags[k]:
+            f.write(f'<li><a href="./outputs/{file.lower()}">{file.split('.')[0].title()}</a></li>\n')
+        f.write('</ul>\n')
