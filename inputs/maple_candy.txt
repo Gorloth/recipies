@@ -1,4 +1,4 @@
-servings = ''
+servings = '3 dozen candies'
 form = 'Candy'
 flavors = 'Maple'
 
