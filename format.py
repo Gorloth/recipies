@@ -194,7 +194,10 @@ def output_html(recipe, directory):
             for ref in recipe.used_in:
                 text += (' ' + format_link(ref) + ',')
             f.write(text[0:-1])
-                
+              
+def make_link(text):
+    return f'<li><a href="./outputs/{text.lower()}">{text.split('.')[0].title().replace('_', ' ')}</a></li>\n'
+              
 recipes = []
                 
 for file in os.listdir('./inputs'):
@@ -241,7 +244,7 @@ with open( './index.html', 'w') as f:
         f.write(f'<h3 id="{k.lower()}">{k}</h3>\n')
         f.write('<ul>\n')
         for file in form[k]:
-            f.write(f'<li><a href="./outputs/{file.lower()}">{file.split('.')[0].title()}</a></li>\n')
+            f.write(make_link(file))
         f.write('</ul>\n')
             
 with open( './flavor.html', 'w') as f:
@@ -249,7 +252,7 @@ with open( './flavor.html', 'w') as f:
         f.write(f'<h3 id="{k.lower()}">{k}</h3>\n')
         f.write('<ul>\n')
         for file in flavors[k]:
-            f.write(f'<li><a href="./outputs/{file.lower()}">{file.split('.')[0].title()}</a></li>\n')
+            f.write(make_link(file))
         f.write('</ul>\n')
             
 with open( './flags.html', 'w') as f:
@@ -257,5 +260,5 @@ with open( './flags.html', 'w') as f:
         f.write(f'<h3 id="{k.lower()}">{k}</h3>\n')
         f.write('<ul>\n')
         for file in flags[k]:
-            f.write(f'<li><a href="./outputs/{file.lower()}">{file.split('.')[0].title()}</a></li>\n')
+            f.write(make_link(file))
         f.write('</ul>\n')
